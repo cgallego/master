@@ -1,0 +1,9 @@
+nonmassM	6030	9082	10435	20091207	S900	R	205	R	nonmassM
+nonmassM	6030	9082	10436	20091207	S900	R	205	R	nonmassM
+
+
+## cond	StudyNumber	DicomExamNumber	LesionID	StudyDate	SeriesID	BreastSide	PathReportID	PathoBreastSide	BenignNMaligNAnt	N_interNAlvoxels	n_VOI_points	VolumeLesion	VolumeSurface	VOI_efect_diameter	sphereVOI_vol
+massM	6019	8175	1131	20091010	S600	L	189	L	massM
+nonmassM	6019	8175	10427	20091010	S600	L	189	L	nonmassM
+nonmassM	6019	8175	10428	20091010	S600	R	189	L	nonmassM
+nonmassB	6034	6417	10438	20090615	S600	R	211	R	nonmassB

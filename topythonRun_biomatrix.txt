@@ -1,0 +1,85 @@
+nonmass	672	4893	10456	20090303	800	L	237	L	B	11310	2278	233.1518699	994.5835161	7.636249216	199.5165878	InsituDuctal
+mass	673	68	1280	20080413	S600	R	242	R	B	800	528	41.49934533	146.6541123	4.295504791	35.51254344	DuctalHyperplasia
+mass	771	1012	1312	20080610	S600	L	312	L	B	352	182	6.128311443	60.38153477	2.270461116	5.244205469	noprocedures/pathology
+mass	771	1012	1313	20080610	S600	L	312	L	B	192	86	5.784057399	38.55469432	2.22712533	4.949620185	noprocedures/pathology
+mass	775	14616	1317	20101125	S800	L	314	L	B	8189	1162	148.521752	490.1396439	6.570480748	127.0954803	noprocedures/pathology
+nonmass	775	14616	10498	20101125	S800	L	314	L	B	54278	5541	565.3125722	2288.470732	10.25880262	483.7589179	noprocedures/pathology
+nonmass	775	14616	10499	20101125	S800	L	314	L	B	110	103	3.167447188	29.05293942	1.822091799	2.710501305	noprocedures/pathology
+nonmass	775	14616	10500	20101125	S800	L	314	L	B	2252	4214	600.0251533	1201.811187	10.46462359	513.4636271	noprocedures/pathology
+mass	814	1851	1357	20080807	S600	L	340	L	M	4018	1373	307.3489356	642.3906296	8.372934562	263.0097703	AtypicalDuctalHyperplasia(fomr2011) doesn't have scan from 2008-08-07 in biomat
+mass	873	5889	1419	20091128	S700	L	376	L	B	1035	1400	460.5351947	812.3639498	9.581232985	394.0969999	Fibrocystic
+mass	873	5889	1420	20091128	S700	L	376	L	B	56	112	23.73549011	66.45401591	3.565604702	20.31128463	Fibrocystic
+ERRORS
+
+
+
+# NAs
+mass	320	13984	1701	20060216	S4	L	452	L	M	NA	NA	NA	NA	NA	NA	InvasiveDuctal	haslesionlink	
+mass	681	6540	1282	20090623	S900	L	247	L	B	NA	NA	NA	NA	NA	NA	BenignBreast
+mass	683	10871	1784	20100325	S800	R	470	R	M	NA	NA	NA	NA	NA	NA	AtypicalLobularHyperplasia
+mass	690	11583	1227	20100509	S900	R	253	R	B	NA	NA	NA	NA	NA	NA
+nonmass	722	13163	10471	20100824	S1000	R	278	R	M	NA	NA	NA	NA	NA	NA
+nonmass	728	12222	10475	20100617	S800	L	283	B	B	NA	NA	NA	NA	NA	NA
+nonmass	732	6468	10477	20090618	S600	L	289	L	B	NA	NA	NA	NA	NA	NA
+mass	742	12748	1283	20100723	S800	L	300	L	B	NA	NA	NA	NA	NA	NA
+nonmass	742	12748	10483	20100723	S800	L	300	L	B	NA	NA	NA	NA	NA	NA
+nonmass	752	5474	10489	20090413	S600	R	305	R	B	NA	NA	NA	NA	NA	NA
+nonmass	755	7640	10481	20090905	S600	R	298	B	M	NA	NA	NA	NA	NA	NA
+mass	758	3085	1306	20081030	S600	R	307	R	B	NA	NA	NA	NA	NA	NA
+nonmass	776	13062	10505	20100816	S800	L	315	L	M	NA	NA	NA	NA	NA	NA
+mass	778	3144	1476	20081103	S600	R	388	R	B	NA	NA	NA	NA	NA	NA
+mass	781	2462	1326	20080918	S600	R	318	R	M	NA	NA	NA	NA	NA	NA
+nonmass	795	10636	10511	20100312	S800	L	329	L	B	NA	NA	NA	NA	NA	NA
+mass	802	29504	1352	20080309	600	L	334	L	M	NA	NA	NA	NA	NA	NA
+nonmass	805	7734	10539	20090913	S600	R	393	R	B	NA	NA	NA	NA	NA	NA
+mass	813	13464	1356	20100914	S800	L	339	L	M	NA	NA	NA	NA	NA	NA
+mass	827	6402	1485	20090613	S600	R	394	B	M	NA	NA	NA	NA	NA	NA
+mass	834	29825	1364	20080327	600	L	348	L	M	NA	NA	NA	NA	NA	NA
+nonmass	853	2298	10524	20080908	S600	R	366	L	B	NA	NA	NA	NA	NA	NA
+mass	862	13789	1412	20101004	S800	L	372	L	M	NA	NA	NA	NA	NA	NA
+mass	871	8955	1415	20091128	700	L	375	L	M	NA	NA	NA	NA	NA	NA
+mass	871	8955	1416	20091128	700	L	375	L	M	NA	NA	NA	NA	NA	NA
+mass	871	8955	1417	20091128	700	L	375	L	M	NA	NA	NA	NA	NA	NA
+mass	880	5174	1422	20090321	S600	R	377	R	B	NA	NA	NA	NA	NA	NA
+mass	881	15209	1496	20051117	S8	L	404	L	M	NA	NA	NA	NA	NA	NA
+nonmass	883	9777	10550	20100122	700	L	405	L	M	NA	NA	NA	NA	NA	NA
+nonmass	884	19146	10553	20110805	S600	B	409	R	M	NA	NA	NA	NA	NA	NA
+nonmass	6001	28886	10419	20080201	S600	L	172	O	B	NA	NA	NA	NA	NA	NA
+mass	6005	7660	1114	20090908	S600	L	177	L	M	NA	NA	NA	NA	NA	NA
+mass	6019	8175	1132	20091010	S600	L	189	L	M	NA	NA	NA	NA	NA	NA
+mass	6021	5071	1135	20090314	S600	L	194	L	M	NA	NA	NA	NA	NA	NA
+mass	6022	73410	1136	20090816	S600	L	195	L	M	NA	NA	NA	NA	NA	NA
+mass	6023	6533	1138	20090623	S1000	L	196	L	B	NA	NA	NA	NA	NA	NA
+nonmass	6032	6218	10453	20090601	S600	L	209	L	B	NA	NA	NA	NA	NA	NA
+mass	6035	76410	1157	20090905	S600	L	212	L	M	NA	NA	NA	NA	NA	NA
+mass	6039	7992	1170	20090929	S600	L	216	L	M	NA	NA	NA	NA	NA	NA
+mass	6042	28673	1176	20080119	S600	R	220	R	M	NA	NA	NA	NA	NA	NA
+nonmass	6052	13412	10455	20051103	S3	R	235	R	B	NA	NA	NA	NA	NA	NA
+
+
+NAs (doesnt exit by CAD# on biomatrix)
+## cond	StudyNumber	DicomExamNumber	LesionID	StudyDate	SeriesID	BreastSide	PathReportID	PathoBreastSide	BenignNMaligNAnt	N_interNAlvoxels	n_VOI_points	VolumeLesion	VolumeSurface	VOI_efect_diameter	sphereVOI_vol
+mass	297	7920	1660	20090924	S600	R	442	L	M	27328	31418	12733.81257	18460.78271	28.97254262	10896.79162
+mass	297	7920	1661	20090924	S600	L	442	L	M	56051	27382	5206.700656	14704.82016	21.50410288	4455.564128
+nonmass	297	7920	10624	20090924	S600	L	442	L	M	4613	2291	259.137366	1072.901996	7.910011943	221.7533388
+mass	299	4401	1669	20010830	S33	R	449	R	B	1108	703	324.7778271	847.2468835	8.52830224	277.9243289
+mass	299	4401	1670	20010830	S33	R	449	R	B	402	91	18.20955187	130.3313172	3.264125728	15.58259346
+nonmass	299	4401	10625	20010830	S33	L	449	R	B	NA	NA	NA	NA	NA	NA
+
+
+
+
+
+
+row.names	cond	StudyNumber	DicomExamNumber	LesionID	StudyDate	SeriesID	BreastSide	PathReportID	PathoBreastSide	BenignNMaligNAnt	A.countor	alpha.countor	beta.countor	iAUC1.countor	Slope_ini.countor	Tpeak.countor	Kpeak.countor	SER.countor	A.inside	alpha.inside	beta.inside	iAUC1.inside	Slope_ini.inside	Tpeak.inside	Kpeak.inside	SER.inside	maxCr.contour	peakCr.contour	UptakeRate.contour	washoutRate.contour	maxVr.contour	peakVr.contour	Vr_increasingRate.contour	Vr_decreasingRate.contour	Vr_post_1.contour	maxCr.inside	peakCr.inside	UptakeRate.inside	washoutRate.inside	maxVr.inside	peakVr.inside	Vr_increasingRate.inside	Vr_decreasingRate.inside	Vr_post_1.inside	min_F_r_i	max_F_r_i	mean_F_r_i	var_F_r_i	skew_F_r_i	kurt_F_r_i	iMax_Variance_uptake	iiMin_change_Variance_uptake	iiiMax_Margin_Gradient	k_Max_Margin_Grad	ivVariance	circularity	irregularity	edge_sharp_mean	edge_sharp_std	max_RGH_mean	max_RGH_mean_k	max_RGH_var	max_RGH_var_k	
+texture_contrast_zero	texture_contrast_quarterRad	texture_contrast_halfRad	texture_contrast_threeQuaRad	
+texture_homogeneity_zero	texture_homogeneity_quarterRad	texture_homogeneity_halfRad	texture_homogeneity_threeQuaRad
+texture_dissimilarity_zero	texture_dissimilarity_quarterRad	texture_dissimilarity_halfRad	texture_dissimilarity_threeQuaRad	
+texture_correlation_zero	texture_correlation_quarterRad	texture_correlation_halfRad	texture_correlation_threeQuaRad	
+texture_ASM_zero	texture_ASM_quarterRad	texture_ASM_halfRad	texture_ASM_threeQuaRad	
+texture_energy_zero	texture_energy_quarterRad	texture_energy_halfRad	texture_energy_threeQuaRad	
+
+texture_ASM_halfRad.1	texture_ASM_threeQuaRad.1	
+texture_energy_zero.1	texture_energy_quarterRad.1	
+texture_energy_halfRad.1	texture_energy_threeQuaRad.1
+
