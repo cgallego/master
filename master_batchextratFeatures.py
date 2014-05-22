@@ -46,7 +46,6 @@ from rpy2.robjects.numpy2ri import numpy2ri
 from rpy2.robjects.packages import importr
 import rpy2.robjects as R
 from rpy2.robjects import globalenv
-from classifyCascade import *
 
 
 def getScans(path_rootFolder, fileline, PatientID, StudyID, AccessionN, oldExamID):
@@ -111,11 +110,35 @@ if __name__ == '__main__':
             ###### 1) Retrieving Images from Research PACS
             #############################
             print "Retrieving Scans to local drive..."
-            #getScans(path_rootFolder, fileline, PatientID, StudyID, AccessionN, oldExamID=False)
+            #getScans(path_rootFolder, fileline, PatientID, StudyID, AccessionN, oldExamID=False
             
-            if(init_flag): 
-                casesFrame = pd.DataFrame(columns=queryData.d1.columns)
-                init_flag=False
+            #############################
+            ###### 2) Querying Research database for clinical, pathology, radiology data
+            #############################
+            print "Executing SQL connection..."
+            # Format query StudyID
+            if (len(StudyID) >= 4 ): fStudyID=StudyID
+            if (len(StudyID) == 3 ): fStudyID='0'+StudyID
+            if (len(StudyID) == 2 ): fStudyID='00'+StudyID
+            if (len(StudyID) == 1 ): fStudyID='000'+StudyID
+               
+            # Format query redateID
+            redateID = dateID[0:4]+'-'+dateID[4:6]+'-'+dateID[6:8]
+        
+            # perform query        
+            queryData = Query()
+            queryData.queryDatabasewNoGui(fStudyID, redateID)       
+            rowCase=0
+            
+            #slice data, get only 1 record        
+            dataCase = pd.Series( queryData.d1.loc[rowCase,:] )
+            print dataCase
+
+            ## append collection of cases
+            casesFrame = pd.DataFrame(columns=queryData.d1.columns)
+            casesFrame = casesFrame.append(dataCase) # 20            
+            casesFrame['id']=fStudyID
+            casesFrame.set_index('id',inplace=False) 
 
             #############################                  
             ###### 3) Extractfeatures
@@ -140,45 +163,28 @@ if __name__ == '__main__':
             # Create only 1 display
             loadDisplay = Display()
             lesion3D_mesh = loadDisplay.addSegment(lesion3D, (0,1,0), interact=False)
-            loadDisplay.visualize(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, sub=True, postS=4, interact=True)
-            
-            # Get z slice
-            LesionZslice = loadDisplay.zImagePlaneWidget.GetSliceIndex()
-    
-            #############################
-            # 4) Create Segmentation of lesion. Comment out if not needed ( define seededlesion3D = lesion3D  )
-            #############################
-            createSegment = Segment()
-            print "\n Displaying picker for lesion segmentation"
-            seeds = loadDisplay.display_pick(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, 4, LesionZslice)
-            
-            seededlesion3D = createSegment.segmentFromSeeds(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, seeds, loadDisplay.iren1, loadDisplay.xImagePlaneWidget, loadDisplay.yImagePlaneWidget,  loadDisplay.zImagePlaneWidget)
-            seededlesion3D_mesh = loadDisplay.addSegment(seededlesion3D, (0,0,1), interact=True)
-            loadDisplay.picker.RemoveAllObservers()
-    
-            # save it to file	             
-            createSegment.saveSegmentation(lesionID_path, seededlesion3D)                
+            loadDisplay.visualize(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, sub=True, postS=4, interact=False)
             
             #############################
             ###### Extract Dynamic features
             #############################
             print "\n Extract Dynamic contour features..."
             loadDynamic = Dynamic()
-            dynamicfeatures_contour = loadDynamic.extractfeatures_contour(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, series_path, phases_series, seededlesion3D)
+            dynamicfeatures_contour = loadDynamic.extractfeatures_contour(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, series_path, phases_series, lesion3D)
             print "\n=========================================="
             print dynamicfeatures_contour
             
             print "\n Extract Dynamic inside features..."
-            dynamicfeatures_inside = loadDynamic.extractfeatures_inside(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, series_path, phases_series, seededlesion3D)
+            dynamicfeatures_inside = loadDynamic.extractfeatures_inside(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, series_path, phases_series, lesion3D)
             print dynamicfeatures_inside
             print "\n=========================================="
-            
+        
             #############################
             ###### Extract Morphology features
             #############################
             print "\n Extract Morphology features..."
             loadMorphology = Morphology()
-            morphofeatures = loadMorphology.extractfeatures(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, series_path, phases_series, seededlesion3D)
+            morphofeatures = loadMorphology.extractfeatures(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, series_path, phases_series, lesion3D)
             print "\n=========================================="
             print morphofeatures
             print "\n=========================================="
@@ -188,7 +194,7 @@ if __name__ == '__main__':
             #############################
             print "\n Extract Texture features..."
             loadTexture = Texture()
-            texturefeatures = loadTexture.extractfeatures(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, series_path, phases_series, seededlesion3D, loadMorphology.VOI_efect_diameter, loadMorphology.lesion_centroid )
+            texturefeatures = loadTexture.extractfeatures(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, series_path, phases_series, lesion3D, loadMorphology.VOI_efect_diameter, loadMorphology.lesion_centroid )
             print "\n=========================================="
             print texturefeatures
             print "\n=========================================="
@@ -202,14 +208,9 @@ if __name__ == '__main__':
             #############################
             ###### Finish tidying up and save to file
             ## append collection of cases
-            #############################
-            casesFrame = casesFrame.append(dataCase) # 20
-            casesFrame['id']=fStudyID
-            casesFrame.set_index('id',inplace=False)
-            
+            #############################            
             dynamicfeatures_contour['id']=fStudyID
             dynamicfeatures_contour.set_index('id',inplace=False)
-            
             casesFrame = pd.merge(casesFrame, dynamicfeatures_contour, on='id', how='inner')
             
             dynamicfeatures_inside['id']=fStudyID
@@ -224,19 +225,14 @@ if __name__ == '__main__':
             texturefeatures.set_index('id',inplace=False)
             casesFrame = pd.merge(casesFrame, texturefeatures, on='id', how='inner')
             
-            # end of line
-            os.chdir("Z:\Cristina\MassNonmass\codeProject\codeBase\extractFeatures\casesDatabase")
-            casesFrame.to_csv('casesFrames_toclasify.csv')   
-            
-            #############################
-            ## Classification stage: send features to classifier to generate new case prediction
-            ## Cascade current classifier
-            #############################
-            classifier = classifyCascade()
-            classifier.case_classifyCascade()
-             
+            os.chdir(path_rootFolder)
+            if(init_flag): 
+                allcasesFrame = pd.DataFrame(columns=casesFrame.columns)
+                init_flag=False  
+                
+            allcasesFrame = allcasesFrame.append(casesFrame, ignore_index=True)
+            allcasesFrame.to_csv('casesFrames_newname.csv')  
+        
         else:
             file_ids.close()
-            # end of line
-            os.chdir(path_rootFolder)
-            casesFrame.to_csv('casesFrames_newcaseClassify.csv')  
+            

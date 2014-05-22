@@ -48,7 +48,6 @@ from rpy2.robjects.numpy2ri import numpy2ri
 from rpy2.robjects.packages import importr
 import rpy2.robjects as R
 from rpy2.robjects import globalenv
-from classifyCascade import *
 
 
 def getScans(path_rootFolder, fileline, PatientID, StudyID, AccessionN, oldExamID):
@@ -100,69 +99,79 @@ if __name__ == '__main__':
     for fileline in file_ids:
         # Get the line: StudyNumber    DicomExamNumber    MRN    chosen_lesions_id    StudyDate    SeriesID    image_pos_pat    image_ori_pat
         fileline = fileline.split()
-        cond = fileline[0] 
-        StudyID = fileline[1]  
-        DicomExamNumber = fileline[2]
-        Lesions_id = fileline[3]
-        dateID = fileline[4]
-        SeriesID = fileline[5] # corresponds to dynamic sequence;
-        
-        #############################
-        ###### 1) Retrieving Images from Research PACS
-        #############################
-        print "Retrieving Scans to local drive..."
-        #getScans(path_rootFolder, fileline, PatientID, StudyID, AccessionN, oldExamID=False)
-        
-        #############################
-        ###### 2) Querying Research database for clinical, pathology, radiology data
-        #############################
-        print "Executing SQL connection..."
-        # Format query StudyID
-        if (len(StudyID) >= 4 ): fStudyID=StudyID
-        if (len(StudyID) == 3 ): fStudyID='0'+StudyID
-        if (len(StudyID) == 2 ): fStudyID='00'+StudyID
-        if (len(StudyID) == 1 ): fStudyID='000'+StudyID
-           
-        # Format query redateID
-        redateID = dateID[0:4]+'-'+dateID[4:6]+'-'+dateID[6:8]
-    
-        # perform query        
-        queryData = Query()
-        queryData.queryDatabase(fStudyID, redateID)       
-        rowCase=["0", "0"]
-        rowCase = int(raw_input('pick row (0-n): '))
-        
-        # recollect pathologies
-        queryData.d1['is_insitu'] = pd.Series(True, index=queryData.d1)
-        queryData.d1['is_invasive'] = pd.Series(True, index=queryData.d1)
-        queryData.d1['Diagnosis'] = pd.Series(True, index=queryData.d1)
-        queryData.d1['BenignNMaligNAnt'] = pd.Series(True, index=queryData.d1)
-        queryData.d1['labels'] = pd.Series(True, index=queryData.d1)
-        ansLesion = array((raw_input('Enter: is_insitu?: is_invasive?: ')).split()).astype(bool)
-
-        #slice data, get only 1 record        
-        dataCase = pd.Series( queryData.d1.loc[rowCase,:] )
-        dataCase['is_insitu'] =  ansLesion[0]
-        dataCase['is_invasive'] =  ansLesion[1]
-        
-        ansDiag=["diagnosis"]
-        ansDiag = str(raw_input('Dignosis: '))
-        dataCase['Diagnosis'] =  ansDiag
-        dataCase['BenignNMaligNAnt'] =  cond[:-1]
-        dataCase['labels'] =  cond
-        
-        if(init_flag): 
-            casesFrame = pd.DataFrame(columns=queryData.d1.columns)
-            init_flag=False
             
-        #############################
-        ###### Finish tidying up and save to file
-        ## append collection of cases
-        #############################
-        casesFrame = casesFrame.append(dataCase) # 20
-        casesFrame['id']=fStudyID
-        casesFrame.set_index('id',inplace=False)
-             
-    file_ids.close()
-    # end of line
-    casesFrame.to_csv('casesFrames_queried.csv')   
+        if (fileline[0] != "##"):
+            cond = fileline[0] 
+            StudyID = fileline[1]  
+            DicomExamNumber = fileline[2]
+            Lesions_id = fileline[3]
+            dateID = fileline[4]
+            SeriesID = fileline[5] # corresponds to dynamic sequence;
+            
+            #############################
+            ###### 1) Retrieving Images from Research PACS
+            #############################
+            print "Retrieving Scans to local drive..."
+            #getScans(path_rootFolder, fileline, PatientID, StudyID, AccessionN, oldExamID=False)
+            
+            #############################
+            ###### 2) Querying Research database for clinical, pathology, radiology data
+            #############################
+            print "Executing SQL connection..."
+            # Format query StudyID
+            if (len(StudyID) >= 4 ): fStudyID=StudyID
+            if (len(StudyID) == 3 ): fStudyID='0'+StudyID
+            if (len(StudyID) == 2 ): fStudyID='00'+StudyID
+            if (len(StudyID) == 1 ): fStudyID='000'+StudyID
+               
+            # Format query redateID
+            redateID = dateID[0:4]+'-'+dateID[4:6]+'-'+dateID[6:8]
+        
+            # perform query        
+            queryData = Query()
+            queryData.queryDatabase(fStudyID, redateID)       
+            rowCase=["0", "0"]
+            rowCase = int(raw_input('pick row (0-n): '))
+            
+            # recollect pathologies
+            queryData.d1['is_insitu'] = pd.Series(True, index=queryData.d1)
+            queryData.d1['is_invasive'] = pd.Series(True, index=queryData.d1)
+            queryData.d1['Diagnosis'] = pd.Series(True, index=queryData.d1)
+            queryData.d1['BenignNMaligNAnt'] = pd.Series(True, index=queryData.d1)
+            queryData.d1['labels'] = pd.Series(True, index=queryData.d1)
+            ansLesion = array((raw_input('Enter: is_insitu?: is_invasive?: ')).split()).astype(bool)
+    
+            #slice data, get only 1 record        
+            dataCase = pd.Series( queryData.d1.loc[rowCase,:] )
+            dataCase['is_insitu'] =  ansLesion[0]
+            dataCase['is_invasive'] =  ansLesion[1]
+            
+            ansDiag=["diagnosis"]
+            ansDiag = str(raw_input('Dignosis: '))
+            dataCase['Diagnosis'] =  ansDiag
+            dataCase['BenignNMaligNAnt'] =  cond[:-1]
+            dataCase['labels'] =  cond
+            
+            if(init_flag): 
+                casesFrame = pd.DataFrame(columns=queryData.d1.columns)
+                init_flag=False
+                
+            #############################
+            ###### Finish tidying up and save to file
+            ## append collection of cases
+            #############################
+            casesFrame = casesFrame.append(dataCase) # 20
+            casesFrame['id']=fStudyID
+            casesFrame.set_index('id',inplace=False)
+            casesFrame.to_csv('casesFrames_newname.csv') 
+            
+            queryData.app.Exit()
+            queryData.app.Destroy()
+
+        else:
+            file_ids.close()
+            # end of line
+              
+            
+            
+            

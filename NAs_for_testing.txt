@@ -1,3 +1,7 @@
+massM	871	8955	1415	20091128	700	L	375	L	M	NA	NA	NA	NA	NA	NA
+massM	871	8955	1416	20091128	700	L	375	L	M	NA	NA	NA	NA	NA	NA
+massM	871	8955	1417	20091128	700	L	375	L	M	NA	NA	NA	NA	NA	NA
+
 massB	681	6540	1282	20090623	S900	L	247	L	B	NA	NA	NA	NA	NA	NA
 massM	683	10871	1784	20100325	S800	R	470	R	M	NA	NA	NA	NA	NA	NA
 massB	690	11583	1227	20100509	S900	R	253	R	B	NA	NA	NA	NA	NA	NA
@@ -35,6 +39,6 @@ massM   6035	76410	1157	20090905	S600	L	212	L	M	NA	NA	NA	NA	NA	NA
 massM	6039	7992	1170	20090929	S600	L	216	L	M	NA	NA	NA	NA	NA	NA
 massM	6042	28673	1176	20080119	S600	R	220	R	M	NA	NA	NA	NA	NA	NA
 nonmassM	6052	13412	10455	20100910	S3	R	235	R	M	NA	NA	NA	NA	NA	NA
-
-NAs for testing (**New segmentations)
+## NAs for testing (**New segmentations)
 ## cond	StudyNumber	DicomExamNumber	LesionID	StudyDate	SeriesID	BreastSide	PathReportID	PathoBreastSide	BenignNMaligNAnt	N_interNAlvoxels	n_VOI_points	VolumeLesion	VolumeSurface	VOI_efect_diameter	sphereVOI_vol
+

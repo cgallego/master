@@ -1,0 +1,1015 @@
+,cad.cad_pt_no_txt,cad.latest_mutation,exam.exam_dt_datetime,exam.a_number_txt,exam.mri_cad_status_txt,exam.comment_txt,finding.mri_mass_yn,finding.mri_nonmass_yn,finding.mri_foci_yn,proc.pt_procedure_id,proc.proc_dt_datetime,proc.proc_side_int,proc.proc_source_int,proc.proc_guid_int,proc.proc_tp_int,proc.original_report_txt,is_insitu,is_invasive,Diagnosis,BenignNMaligNAnt,labels,id
+2,0681,Other,2009-06-23,4999374,Unknown,"Persistent LUOQ mammographic asymmetry with
+distortion. Ultrasound shows cysts and elongated duct.",True,False,False,864,2009-09-10,Left,Radiology,Stereo,Vacuum Assisted Biopsy,"Sept 10, 2009
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+  
+     Encounter #: 4299109R
+     Specimen #: S09-23710
+     
+     CLINICAL INFORMATION
+     Subtle area of distortion in the upper outer quadrant.  R/O carcinoma
+     vs radial scar.
+     NOTE: please fax results to Dr. Curpen at ext 5266
+     
+     SPECIMENS SUBMITTED
+     Left breast samples - 11G x12 cores
+     
+     
+     
+     DIAGNOSIS
+     Left breast, core biopsy:
+     BENIGN BREAST TISSUE WITH PROLIFERATIVE FIBROCYSTIC CHANGES.  There is
+     no evidence of atypia or malignancy.
+     
+     COMMENT:
+     Sections show benign breast tissue with both proliferative changes.
+     There is columnar cell metaplasia and hyperplasia and dystrophic
+     calcifications.  A radial scar is not seen.  There is no evidence of
+     atypia or malignancy.
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     The specimen container is labeled with the patient name and 'left
+     breast core biopsy'. The accompanying requisition matches the
+     container' s label.The specimen consists of 12 cores of tan and fatty
+     tissue, each with a diameter of 0.3 cm, ranging from 1.7 to 3.0 cm in
+     length. Submitted in toto in 4 blocks.
+     LS  Dictated 9/11/2009
+     
+     
+     
+     
+     
+     Judit Zubovits, MD, FRCPC
+     Report Electronically Signed
+     9/15/2009 12:33",False,False,Fibrocystic changes,mass,massB,0805
+0,0683,High Risk,2010-03-25,5226149,Malignant,"Palpable mass right breast, sonographically
+suspicious for multicentric carcinoma",True,False,False,509,2010-03-29,Right,Radiology,US,Fine Needle Aspiration,,False,True,InvasiveDuctal,mass,massM,0805
+0,0690,BRCA2,2010-05-09,5180451,Unknown,"BRCA 2. High risk screening. LMP April 28, 2010.
+",True,False,False,1790,2011-02-01,Right,Radiology,MRI,Vacuum Assisted Biopsy,"Feb 01, 2011
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+     
+     Encounter #: 14455708R
+     Specimen #: S11-2964
+     
+     CLINICAL INFORMATION
+     STAT
+     Non mass enhancement right breast. BRCA 2 mutation.
+     
+     SPECIMENS SUBMITTED
+     Right breast, core biopsy
+     
+     
+     
+     DIAGNOSIS
+     Right breast, core biopsy:
+     - FLAT EPITHELIAL ATYPIA
+     - PROLIFERATIVE FIBROCYSTIC CHANGES WITH MODERATE USUAL DUCTAL
+     HYPERPLASIA AND SCLEROSING ADENOSIS
+     - COLUMNAR CELL CHANGES AND HYPERPLASIA
+     - MICROCALCIFICATIONS
+     
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     The specimen container is labeled with the patient name and 'right
+     breast biopsy'. The accompanying requisition matches the container's
+     label.The specimen consists of 12 cores of tan and fatty tissue, each
+     with a diameter of 0.3 to 0.4 cm, ranging from 1.3 to 3.4 cm in
+     length. Submitted in toto in 3 blocks.
+     AMartin
+     Dictated 02/01/2011
+     
+     
+     
+     
+     
+     Reda Saad, MD, FRCPC
+     Report Electronically Signed
+     2011/02/02 17:55",False,False,Usual ductal hyperplasia,mass,massB,0805
+1,0722,Other,2010-08-24,5366177,Malignant,Right inferior palpable mass.,False,True,False,284,2010-08-26,Right,Radiology,US,Fine Needle Aspiration,,False,True,InvasiveDuctal,nonmass,nonmassM,0805
+1,0728,High Risk,2010-06-17,5304244,Unknown,"Left breast Ca 1 o'clock. Outside MRI
+images describe three separate lesions around mass and left lower
+outer left breast enhancement significance unknown
+",False,True,False,190,2010-06-30,Right,Radiology,US,Core Needle Biopsy,"Jun 30, 2010
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+
+     Encounter #: 2799510R
+     Specimen #: S10-17798
+     
+     CLINICAL INFORMATION
+     STAT
+     A) 14 G  3 cores. Solid mass, indeterminate contralateral breast ca.
+     multicentric. B) 14 G  4 Cores. Biopsy at 12 o'clock already proven
+     cancer. Biopsy at 4 o'clock  DCIS vs. invasive. C) Moderate
+     microcalcifications.
+     
+     SPECIMENS SUBMITTED
+     A: Right breast, core biopsy
+     B: Left breast, core biopsy 4 o'clock
+     C: Right breast, stereotactic core biopsy
+     
+     
+     
+     DIAGNOSIS
+     A - Right breast, core biopsy:  FIBROADENOMA
+     B - Left breast, core biopsy 4 o'clock:  SUSPICIOUS FOR ATYPICAL
+     DUCTAL HYPERPLASIA (SEE COMMENT)
+     C - Right breast, stereotactic core biopsy:  BENIGN BREAST TISSUE
+     
+     Comment:
+     A: Sections shows the presence of a fibroepithelial lesion showing the
+     presence of benign breast ducts within fibrous stroma showing focal
+     mild increase in cellularity.  The overall features are consistent
+     with the diagnosis of a fibroadenoma.
+     
+     B: Sections show the presence of one duct showing ductal proliferation
+     with atypia. This duct disappears on deeper levels. This duct is
+     suspicious for atypical ductal hyperplasia. Some ectatic ducts
+     surrounded by chronic inflammatory cells are present. Calcification is
+     noted within the breast tissue.
+     
+     C: Sections shows the presence of benign breast tissue showing the
+     presence of ectatic breast ducts and focal columnar cell  changes.
+     Calcification is noted in the breast tissue.  No evidence of atypia or
+     malignancy is noted in the sections examined.
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     A. The specimen container is labeled with the patient name and 'right
+     breast biopsy samples'. The accompanying requisition matches the
+     container's label.The specimen consists of 3 cores of tan and fatty
+     tissue, each with a diameter of 0.2 cm, ranging from 0.4 to 0.5 cm in
+     length. Submitted in toto in one block.
+     
+     B. The specimen container is labeled with the patient name and 'left
+     breast biopsy samples'. The accompanying requisition matches the
+     container's label.The specimen consists of 5 cores of tan and fatty
+     tissue, each with a diameter of 0.2 cm, ranging from 1.1 to 2.2 cm in
+     length. Submitted in toto in one block.
+     
+     C. The specimen container is labeled with the patient name and 'right
+     breast biopsy samples'. The accompanying requisition matches the
+     container's label.The specimen consists of 6 cores of tan and fatty
+     tissue, each with a diameter of 0.2 cm, ranging from 1.1 to 2.4 cm in
+     length. Submitted in toto in one block.
+     AM
+     Dictated 6/30/2010
+     
+     
+     
+     
+     
+     Harriette Kahn, MD, FRCPC
+     Report Electronically Signed
+     2010/07/05 13:54",False,False,AtypicalDuctal Hyperplasia,nonmass,nonmassB,0805
+2,0742,,2010-07-23,5329785,Benign by pathology,"Left sided nipple discharge with 2
+unsuccessful ductograms",True,False,False,2973,2010-11-19,Left,Surgical/Operating Rm (includes 'Sentinel Lymph Node Biopsy'),N/A,N/A,"AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+     
+
+     Encounter #: 2158410S
+     Specimen #: S10-31293
+     
+     CLINICAL INFORMATION
+     Breast papilloma's.
+     
+     SPECIMENS SUBMITTED
+     A: Left breast lateral 3 o'clock lesion
+     B: Left breast 9 o'clock lesion
+     
+     
+     
+     DIAGNOSIS
+     Part A - Left breast lateral 3 o'clock lesion: ATYPICAL PAPILLARY
+     LESION
+     Part B - Left breast 9 o'clock lesion: - INVASIVE DUCTAL CARCINOMA
+     (SEE COMMENT)
+     IN SITU PAPILLARY CARCINOMA
+     
+     Comment:
+     A: Sections show the presence of a portion of a large duct showing the
+     presence of atypical ductal hyperplasia bordering on is situ papillary
+     carcinoma. The atypical papillary lesion involves the anterior margin.
+     The surrounding breast tissue shows proliferative fibrocystic changes
+     with usual ductal hyperplasia and focal atypical ductal hyperplasia.
+     The breast tissue also shows columnar cell changes. Biopsy site
+     reaction is present.
+     B: Sections show the presence of 3 microscopic foci of invasive ductal
+     carcinoma adjacent to the in situ papillary carcinoma. Two foci each
+     measure 2mm and the 3rd focus measures 1mm.  The breast tissue also
+     shows the presence of multiple duct papillomas, some of which show
+     atypia.
+     
+     
+     
+     
+     
+     
+        Specimen
+        Type:                          Partial Breast
+        Procedure:                     Excision without wire-guided
+                                       localization
+        Lymph Node Sampling:           No lymph nodes present
+        Specimen Integrity:            Multiple designated breast
+                                       specimens
+        Specimen Size
+            Dimensions:                3 x 2.5 x 1.3 cm
+            Note:                      The other piece at 3 o'clock
+                                       measured 3.0cm x3.0cm x1.0cm
+        Specimen Laterality:           Left
+        Tumour Site: Invasive Carcinoma: Upper inner quadrant
+     Tumour
+        Carcinoma:                     Present
+            Histologic Type:           Invasive ductal carcinoma, nos
+                Note:                  3 separate microscopic foci of
+                                       invasive carcinoma are present.
+                                       The 2 largest each span a distance
+                                       of 2mm and the 3rd one measures
+                                       1mm in size.
+            Grading System
+                Overall Grade:         I (low)
+                Overall Score:         4/9
+                Tubular Formation:     1/3
+                Nuclear Pleomorphism:  2/3
+                Mitotic Score:         1/3
+        Ductal Carcinoma In Situ:      DCIS is present
+            Further Classification of DCIS: EIC negative
+            Estimated Size (extent) of DCIS
+                Dimensions:            1 x 0.5 cm
+            Architectural Patterns:    Papillary
+            Nuclear Grade:             2/3
+            Comedo Necrosis:           Absent
+            Extent in Tumour (%):      >90%
+            Extent away from Tumour:   Absent
+            Biopsy Site Reaction:      Present
+        Lobular Carcinoma In Situ :    Not identified
+     Extent
+        Tumour Size / Focality
+            Size of Invasive Component:
+                Dimensions:            0.2 cm
+                Note:                   largest focus
+            Tumour Focality:           Multiple foci of invasive
+                                       carcinoma
+                Number of Foci:        3
+                Sizes of Individual Foci: The 2 largest foci each span a
+                                       distance of 2mm The 3rd focus
+                                       spans a distance of 1mm.
+        Extent of Tumour
+            Skin:                      Skin is not present
+            Dermal Lymph-Vascular Invasion: No skin present
+            Nipple:                    Not applicable
+            Skeletal Muscle:           No skeletal muscle is present
+     Margins
+        Invasive Carcinoma:            Margin(s) positive for invasive
+                                       carcinoma
+            Margin Positive:           Inferior
+            Other Margins <10mm:       Posterior: 4mm
+        Ductal Carcinoma In Situ (DCIS): Margins uninvolved by DCIS
+            Distance of DCIS from Closest Margin (mm): 0.2
+            Closest Margin (DCIS):     Superior
+            Other Margins (DCIS) <10mm: Specify: The atypical papillary
+                                       lesion in the separate 3 o'clock
+                                       biopsy involves the anterior
+                                       margin
+     Accessory Findings
+        Lymph-Vascular Invasion:       Not identified
+        Perineural Invasion:           Not identified
+        Microcalcifications:           Present in non-neoplastic tissue
+     Special Studies
+        Estrogen Receptor:             Biomarkers report to follow
+        Progesterone Receptor:         Biomarkers report to follow
+        HER2 / neu
+            Immunoperoxidase Studies:  Biomarkers report to follow
+     Additional Non-Tumour
+        Additional Pathologic Findings: Duct papillomas and focal
+                                       atypical papillary lesions,
+                                       proliferative fibrocystic changes
+                                       with usual ductal hyperplasia and
+                                       atypical ductal hyperplasia.
+     
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     A. The specimen container is labeled with the patient name and 'left
+     breast 3 o'clock lesion'. The accompanying requisition matches the
+     container's label.  The specimen consists of a lumpectomy oriented,
+     per the requisition, stitch-short superior, long lateral, double deep
+     tendon the specimen measures 3.0 cm SI by 3.0 cm ML by 1.0 cm AP.  A
+     ragged defect is present on the lateral half of the specimen measuring
+     1.5 cm SI.  A localization wire is present with the exiting the medial
+     specimen aspect (slice 1).  The superior portion of the specimen is
+     painted green, the inferior blue, the anterior midportion  painted red
+     and posterior midportion is painted black.  The specimen is serially
+     sectioned from medial to lateral aspect into 6 slices and photocopied.
+     The tissue is densely fibrous in nature.  No discrete abnormalities
+     are grossly identified.  The specimen is submitted in toto, per the
+     accompanying diagram as follows:
+     1-2     Medial resection margin serially sectioned from superior to
+     inferior and placed on edge, 1 including the superior portion, 2
+         including the inferior portion
+     3     One full slice of breast
+     4-7     Each pair of blocks containing a bisected a full slice of
+     breast, with the first of each pair of blocks containing the superior
+         half and the second of each pair of blocks containing the
+     inferior half
+     8     One full slice of breast
+     9-10     Lateral resection margin serially sectioned from superior to
+     inferior placed on edge, 9 including the superior half, 10
+         including the inferior half
+     
+     B. The specimen container is labeled with the patient name and 'left
+     breast 9 o'clock lesion'. The accompanying requisition matches the
+     container's label.  The specimen consists of a lumpectomy oriented,
+     per the requisition, stitch short-superior, long-lateral, and
+     double-deep.  The specimen measures 2.5 cm SI by 3.0 cm ML by 1.3 cm
+     AP.  The superior portion of the specimen is painted green, the
+     inferior blue, the anterior midportion painted red and the posterior
+     midportion is painted black.  A localization wire is present with the
+     hook exiting the lateral specimen aspect (slice5).  The specimen is
+     serially sectioned from medial to lateral aspect into 6 slices and
+     photocopied.  The specimen is comprised of approximately 30-40%
+     fibroglandular tissue.  No discrete mass is grossly identified.  The
+     specimen is submitted in toto, per the accompanying diagram as
+     follows:
+     1-2     Medial resection margin serially sectioned from superior to
+     inferior and placed on edge, 1 including the superior portion, 2
+         including the inferior portion
+     3-6     Each block containing a full length slice of breast
+     7-8      Lateral resection margin serially sectioned from superior to
+     inferior and placed on edge, 7 including the superior portion, 8
+         including the inferior portion
+     AMM
+     Dictated 11/25/2010
+     
+     
+     
+     
+     
+     Harriette Kahn, MD, FRCPC
+     Report Electronically Signed
+     2010/12/14 16:07",False,False,Atypical Papilloma,mass,massM,0805
+3,0742,,2010-07-23,5329785,Benign by pathology,"Left sided nipple discharge with 2
+unsuccessful ductograms",False,True,False,2973,2010-11-19,Left,Surgical/Operating Rm (includes 'Sentinel Lymph Node Biopsy'),N/A,N/A,"AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+     
+
+     Encounter #: 2158410S
+     Specimen #: S10-31293
+     
+     CLINICAL INFORMATION
+     Breast papilloma's.
+     
+     SPECIMENS SUBMITTED
+     A: Left breast lateral 3 o'clock lesion
+     B: Left breast 9 o'clock lesion
+     
+     
+     
+     DIAGNOSIS
+     Part A - Left breast lateral 3 o'clock lesion: ATYPICAL PAPILLARY
+     LESION
+     Part B - Left breast 9 o'clock lesion: - INVASIVE DUCTAL CARCINOMA
+     (SEE COMMENT)
+     IN SITU PAPILLARY CARCINOMA
+     
+     Comment:
+     A: Sections show the presence of a portion of a large duct showing the
+     presence of atypical ductal hyperplasia bordering on is situ papillary
+     carcinoma. The atypical papillary lesion involves the anterior margin.
+     The surrounding breast tissue shows proliferative fibrocystic changes
+     with usual ductal hyperplasia and focal atypical ductal hyperplasia.
+     The breast tissue also shows columnar cell changes. Biopsy site
+     reaction is present.
+     B: Sections show the presence of 3 microscopic foci of invasive ductal
+     carcinoma adjacent to the in situ papillary carcinoma. Two foci each
+     measure 2mm and the 3rd focus measures 1mm.  The breast tissue also
+     shows the presence of multiple duct papillomas, some of which show
+     atypia.
+     
+     
+     
+     
+     
+     
+        Specimen
+        Type:                          Partial Breast
+        Procedure:                     Excision without wire-guided
+                                       localization
+        Lymph Node Sampling:           No lymph nodes present
+        Specimen Integrity:            Multiple designated breast
+                                       specimens
+        Specimen Size
+            Dimensions:                3 x 2.5 x 1.3 cm
+            Note:                      The other piece at 3 o'clock
+                                       measured 3.0cm x3.0cm x1.0cm
+        Specimen Laterality:           Left
+        Tumour Site: Invasive Carcinoma: Upper inner quadrant
+     Tumour
+        Carcinoma:                     Present
+            Histologic Type:           Invasive ductal carcinoma, nos
+                Note:                  3 separate microscopic foci of
+                                       invasive carcinoma are present.
+                                       The 2 largest each span a distance
+                                       of 2mm and the 3rd one measures
+                                       1mm in size.
+            Grading System
+                Overall Grade:         I (low)
+                Overall Score:         4/9
+                Tubular Formation:     1/3
+                Nuclear Pleomorphism:  2/3
+                Mitotic Score:         1/3
+        Ductal Carcinoma In Situ:      DCIS is present
+            Further Classification of DCIS: EIC negative
+            Estimated Size (extent) of DCIS
+                Dimensions:            1 x 0.5 cm
+            Architectural Patterns:    Papillary
+            Nuclear Grade:             2/3
+            Comedo Necrosis:           Absent
+            Extent in Tumour (%):      >90%
+            Extent away from Tumour:   Absent
+            Biopsy Site Reaction:      Present
+        Lobular Carcinoma In Situ :    Not identified
+     Extent
+        Tumour Size / Focality
+            Size of Invasive Component:
+                Dimensions:            0.2 cm
+                Note:                   largest focus
+            Tumour Focality:           Multiple foci of invasive
+                                       carcinoma
+                Number of Foci:        3
+                Sizes of Individual Foci: The 2 largest foci each span a
+                                       distance of 2mm The 3rd focus
+                                       spans a distance of 1mm.
+        Extent of Tumour
+            Skin:                      Skin is not present
+            Dermal Lymph-Vascular Invasion: No skin present
+            Nipple:                    Not applicable
+            Skeletal Muscle:           No skeletal muscle is present
+     Margins
+        Invasive Carcinoma:            Margin(s) positive for invasive
+                                       carcinoma
+            Margin Positive:           Inferior
+            Other Margins <10mm:       Posterior: 4mm
+        Ductal Carcinoma In Situ (DCIS): Margins uninvolved by DCIS
+            Distance of DCIS from Closest Margin (mm): 0.2
+            Closest Margin (DCIS):     Superior
+            Other Margins (DCIS) <10mm: Specify: The atypical papillary
+                                       lesion in the separate 3 o'clock
+                                       biopsy involves the anterior
+                                       margin
+     Accessory Findings
+        Lymph-Vascular Invasion:       Not identified
+        Perineural Invasion:           Not identified
+        Microcalcifications:           Present in non-neoplastic tissue
+     Special Studies
+        Estrogen Receptor:             Biomarkers report to follow
+        Progesterone Receptor:         Biomarkers report to follow
+        HER2 / neu
+            Immunoperoxidase Studies:  Biomarkers report to follow
+     Additional Non-Tumour
+        Additional Pathologic Findings: Duct papillomas and focal
+                                       atypical papillary lesions,
+                                       proliferative fibrocystic changes
+                                       with usual ductal hyperplasia and
+                                       atypical ductal hyperplasia.
+     
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     A. The specimen container is labeled with the patient name and 'left
+     breast 3 o'clock lesion'. The accompanying requisition matches the
+     container's label.  The specimen consists of a lumpectomy oriented,
+     per the requisition, stitch-short superior, long lateral, double deep
+     tendon the specimen measures 3.0 cm SI by 3.0 cm ML by 1.0 cm AP.  A
+     ragged defect is present on the lateral half of the specimen measuring
+     1.5 cm SI.  A localization wire is present with the exiting the medial
+     specimen aspect (slice 1).  The superior portion of the specimen is
+     painted green, the inferior blue, the anterior midportion  painted red
+     and posterior midportion is painted black.  The specimen is serially
+     sectioned from medial to lateral aspect into 6 slices and photocopied.
+     The tissue is densely fibrous in nature.  No discrete abnormalities
+     are grossly identified.  The specimen is submitted in toto, per the
+     accompanying diagram as follows:
+     1-2     Medial resection margin serially sectioned from superior to
+     inferior and placed on edge, 1 including the superior portion, 2
+         including the inferior portion
+     3     One full slice of breast
+     4-7     Each pair of blocks containing a bisected a full slice of
+     breast, with the first of each pair of blocks containing the superior
+         half and the second of each pair of blocks containing the
+     inferior half
+     8     One full slice of breast
+     9-10     Lateral resection margin serially sectioned from superior to
+     inferior placed on edge, 9 including the superior half, 10
+         including the inferior half
+     
+     B. The specimen container is labeled with the patient name and 'left
+     breast 9 o'clock lesion'. The accompanying requisition matches the
+     container's label.  The specimen consists of a lumpectomy oriented,
+     per the requisition, stitch short-superior, long-lateral, and
+     double-deep.  The specimen measures 2.5 cm SI by 3.0 cm ML by 1.3 cm
+     AP.  The superior portion of the specimen is painted green, the
+     inferior blue, the anterior midportion painted red and the posterior
+     midportion is painted black.  A localization wire is present with the
+     hook exiting the lateral specimen aspect (slice5).  The specimen is
+     serially sectioned from medial to lateral aspect into 6 slices and
+     photocopied.  The specimen is comprised of approximately 30-40%
+     fibroglandular tissue.  No discrete mass is grossly identified.  The
+     specimen is submitted in toto, per the accompanying diagram as
+     follows:
+     1-2     Medial resection margin serially sectioned from superior to
+     inferior and placed on edge, 1 including the superior portion, 2
+         including the inferior portion
+     3-6     Each block containing a full length slice of breast
+     7-8      Lateral resection margin serially sectioned from superior to
+     inferior and placed on edge, 7 including the superior portion, 8
+         including the inferior portion
+     AMM
+     Dictated 11/25/2010
+     
+     
+     
+     
+     
+     Harriette Kahn, MD, FRCPC
+     Report Electronically Signed
+     2010/12/14 16:07",False,True,InvasiveDuctal,nonmass,nonmassM,0805
+7,0752,Other,2009-04-13,4940477,Benign by pathology,"Further evaluation of right upper outer
+quadrant distortion and calcifications, prior to recommended core
+biopsy.
+",False,True,False,1155,2009-04-14,Right,Radiology,Stereo,Core Needle Biopsy,"Apr 14, 2009
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+
+     Encounter #: 14257005R
+     Specimen #: S09-9752
+     
+     CLINICAL INFORMATION
+     STAT
+     R/o cancer/DCIS. A) 14G  7 cores, 16G  3 cores. Calcifications in
+     sample. B) 14 G  6 cores.
+     
+     SPECIMENS SUBMITTED
+     A: Right breast, stereo core biopsy
+     B: Right breast, us core biopsy
+     
+     
+     
+     DIAGNOSIS
+     A.     Right breast core biopsy:
+         BENIGN BREAST TISSUE.
+     
+     B.     Right breast core biopsy:
+         BENIGN BREAST TISSUE.
+     
+     COMMENT:
+     A.  The core biopsy shows the presence of a hyalinized fibrous tissue
+     in which occasional benign breast ducts are present.  Calcification is
+     noted within the breast tissue.  No evidence of atypia or malignancy
+     is present.
+     
+     B.  The core biopsy shows the presence of hyalinized fibrous tissue in
+     which occasional benign breast ducts are present.
+     
+     (2009.04.15 - HK/mk)
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     A. The specimen container is labeled with the patient name and 'right
+     breast core biopsy, site A'. The accompanying requisition matches the
+     container' s label.
+     
+     Specimen consists of multiple fragments of fibrofatty tissue with an
+     aggregate measurement of 1.5 x 0.3 x 0.2 cm and submitted in one
+     block.
+     
+     B. The specimen container is labeled with the patient name and 'right
+     breast core biopsy, site B'. The accompanying requisition matches the
+     container' s label.
+     
+     The specimen consists of multiple minute fragments of fibrofatty
+     tissue with an aggregate measurement of 0.4 x 0.3 x 0.2 cm and
+     submitted in one block.
+     IC
+     Dictated 4/14/2009
+     
+     
+     
+     
+     
+     Harriette Kahn, MD, FRCPC
+     Report Electronically Signed
+     4/16/2009 14:09",False,False,BenignBreastTissue,nonmass,nonmassB,0805
+1,0755,Other,2009-09-05,5059877,Malignant,"Bilateral reduction mammoplasty. Bilateral
+calcifications and left upper inner thickening. Post menopausal.",False,True,False,723,2009-09-28,Left,Radiology,Stereo,Core Needle Biopsy,"Sept 28, 2009
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+     
+
+     Encounter #: 7005209R
+     Specimen #: S09-25324
+     
+     CLINICAL INFORMATION
+     A) 14 G  5 cores. Left breast highly suspicious calcifications. B) 14
+     G  5 cores. Right breast indeterminate calcifications.
+     
+     SPECIMENS SUBMITTED
+     A: Left breast, core biopsy
+     B: Right breast, core biopsy
+     
+     
+     
+     DIAGNOSIS
+     Part A  Left breast, core biopsy:
+     - DUCTAL CARCINOMA IN SITU
+     
+     Part B  Right breast core biopsy:
+     - BENIGN BREAST TISSUE
+     
+     Comment:
+     Left breast- Multiple levels examined exhibit intermediate-grade
+     ductal carcinoma in situ with apocrine features and
+     microcalcifications. Comedo necrosis is not present. Adjacent ducts
+     show the presence of flat epithelial atypia.
+     
+     Right breast- Multiple levels examined show benign breast tissue with
+     few dilated ducts containing birefringent calcium oxalate crystals.
+     SN-M
+     
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     A. The specimen container is labeled with the patient name and 'left
+     breast biopsy'. The accompanying requisition matches the container' s
+     label.The specimen consists of 5 cores of tan and fatty tissue, each
+     with a diameter of 0.1 cm, ranging from 1.2 to 1.6 cm in length.
+     Submitted in toto in one block.
+     
+     B. The specimen container is labeled with the patient name and 'right
+     breast biopsy'. The accompanying requisition matches the container' s
+     label.The specimen consists of 5 cores of tan and fatty tissue, each
+     with a diameter of 0.1 cm, ranging from 1.3 to 1.6 cm in length.
+     Submitted in toto in one block.
+     
+     LS
+     Dictated 9/29/2009
+     
+     
+     
+     
+     
+     Sharon Nofech-Mozes, MD
+     Report Electronically Signed
+     10/2/2009 12:33",False,False,BenignBreastTissue,nonmass,nonmassM,0805
+1,0758,Other,2008-10-30,4796378,Benign by pathology,"Right breast biopsy August 2008 for
+microcalcifications. Pathology reveals atypical lobular
+hyperplasia. Biopsy site was right upper inner quadrant. LMP Oct
+16/08",True,False,False,1520,2008-08-18,Right,Radiology,Stereo,Core Needle Biopsy,,False,False,Fibrocystic changes,mass,massB,0805
+5,0776,Other,2010-08-16,5352670,Malignant,"48 year old female with new palpable lump in
+the left retroareolar region. LMP 21 july 2010
+",False,True,False,1007,2010-09-13,Left,Radiology,US,Core Needle Biopsy,"AP Report: 
+     (NOTE)
+     
+     BIOMARKERS  PATHOLOGY REPORT
+     
+
+     Encounter #: 5517510R
+     Specimen #: B10-330
+     
+     SPECIMENS SUBMITTED
+     Left breast, 14G x 4 core biopsy
+     
+     
+     
+     DIAGNOSIS
+     Left breast, 14G x 4 core biopsy:
+     - INVASIVE DUCT CARCINOMA
+     
+     - POSITIVE FOR ESTROGEN RECEPTOR
+     - POSITIVE FOR PROGESTERONE RECEPTOR
+     - HETEROGENOUS FOR HER 2 NEU ONCOPROTEIN OVER EXPRESSION AND
+     AMPLIFICATION
+     
+     COMMENT
+     The core biopsy of the left breast show a large core of invasive duct
+     carcinoma and 3 small fragments of invasive duct carcinoma. Most of
+     the tumor is negative for Her 2 Neu oncoprotein and Her2 Neu gene
+     amplification. However there is one fragment of about 2mm showing
+     positive Her 2 Neu overexpressionscore3+ and Her2 Neu gene
+     amplification score 6. This heterogenous pattern of expression can
+     occur but is relatively rare. Since this is only a core biopsy the
+     extent of the positive and negative Her2 Neu status in the whole tumor
+     need to be assessed on the surgical excision specimen.
+     
+     
+     
+     
+     Breast Biomarkers
+        Specimen #:                    S10-24244
+     Block #:                           B
+     Estrogen Receptor
+        ER - Results:                  POSITIVE
+        ER - % Positive Cells:         100
+        ER - Average Intensity:        Strong
+     Progesterone Receptor
+        PR - Results:                  POSITIVE
+        PR - % Positive Cells:         100
+        PR - Average intensity:        Strong
+     HER2 (IHC) - Score:                Other: HETEROGENEOUS
+     HER 2 (ISH):                       SISH
+        Note:                          HETEROGENEOUS ,PLEASE SEE COMMENT
+     For all tests parallel controls:   were adequate
+     Antibody Vendor and Clone:         Estrogen Receptor (Rabbit
+                                       Monoclonal, Clone SP1), Ventana,
+                                       Progesterone Receptor (Rabbit
+                                       Monoclonal, Clone IE2), Ventana,
+                                       4B5 (Rabbit Monoclonal), Ventana,
+                                       Kit used Ventana kit
+     IHC Definition:                    Immunohistochemistry
+     ISH Definition:                    In Situ Hybridization
+     
+     
+     
+     
+     
+     
+     
+     Wedad Hanna, MD, FRCPC
+     Report Electronically Signed
+     2010/10/21 15:41",False,True,InvasiveDuctal,nonmass,nonmassM,0805
+7,0778,Other,2008-11-03,4794199,Unknown,"Left breast lump  MALIGNANT  PHYLLOIDES TUMOUR-Dec 05, 2007
+
+54 yo , prior left mastectomy for phyllodes
+tumor, for follow up of right breast focus of enhancement seen on
+an outside MRI in June/08. LMP Nov/01/2008",True,False,False,2493,2008-12-15,Right,Radiology,N/A,Core Needle Biopsy,"?<Report title=""""Surgical Pathology Report""""><Sessions>
+Date: Dec 15, 2008
+
+AP Report: 
+ (NOTE)
+ 
+ SURGICAL PATHOLOGY REPORT
+ 
+
+ HFN: 2479678
+ Encounter #: 11220207R
+ Specimen #: S08-32591
+ 
+ CLINICAL INFORMATION
+ A) 9 G 6 cores MRI VAC. In the upper inner quadrant. B) 9 G 10 cores
+ MRI Vac. At 12 o'clock.
+ 
+ SPECIMENS SUBMITTED
+ A: Right breast, medial core biopsy
+ B: Right breast, lateral core biopsy
+ 
+ 
+ 
+ DIAGNOSIS
+ A. Right breast medial core biopsy:
+ CONSISTENT WITH FIBROADENOMA.
+ 
+ B. Right breast lateral core biopsy:
+ BENIGN BREAST TISSUE.
+ 
+ COMMENT:
+ A. The core biopsy shows the presence of fragments of fibroepithelial
+ lesion with focal ductal hyperplasia. The ducts are surrounded by a
+ mildly cellular stroma. No atypia or evidence of malignancy is
+ present. The overall features are those of a complex fibroadenoma.
+ 
+ B. The core biopsy shows the presence of dense stromal fibrosis in
+ which occasional benign breast ducts are present. Calcification is
+ noted within the breast tissue.
+ 
+ (2008.12.18 - HK/mk)
+ 
+ 
+ 
+ 
+ MACROSCOPIC DESCRIPTION
+ A. The specimen container is labeled with the patient name and 'site A
+ medial right breast biopsy '. The accompanying requisition matches the
+ container' s label. The specimen consists of 7 cores of tan and fatty
+ tissue, each with a diameter of 0.3 cm, ranging from 1.2 to 1.5 cm in
+ length. Submitted in toto in two blocks.
+ 
+ B. The specimen container is labeled with the patient name and 'site
+ B. lateral right breast biopsy'. The accompanying requisition matches
+ the container' s label. The specimen consists of 10 cores of tan and
+ fatty tissue, each with a diameter of 0.3 cm, ranging from 1.1 to 2.3
+ cm in length. Submitted in toto in two blocks.
+ LS
+ Dictated 12/16/2008
+ 
+ 
+ 
+ 
+ 
+ Harriette Kahn, MD, FRCPC
+ Report Electronically Signed
+ 12/19/2008 12:04
+
+
+
+</Sessions></Report>",False,False,Fibroadenoma,mass,massB,0805
+1,0795,High Risk,2010-03-12,5188009,Unknown,"Left spontaneous nipple discharge (greenish) 11
+o'clock duct. Strong family history of breast/ovarian cancer.
+LMP February 28 2010.
+",False,True,False,562,2010-03-01,Left,Radiology,Stereo,Core Needle Biopsy,"Mar 01, 2010
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+     
+     Encounter #: 15508309R
+     Specimen #: S10-5871
+     
+     CLINICAL INFORMATION
+     14 G  4 cores. Calcifications.
+     
+     SPECIMENS SUBMITTED
+     Left breast, core biopsy
+     
+     
+     
+     DIAGNOSIS
+     Left breast core biopsy:
+     AT LEAST ATYPICAL DUCTAL HYPERPLASIA.
+     
+     COMMENT:  The core biopsy shows the presence of one duct with a
+     cribriform morphology. The features in this duct are those of low
+     grade in situ ductal carcinoma, cribriform type.  Adjacent ducts show
+     focal atypical ductal hyperplasia. Since only one duct shows features
+     of low grade in situ ductal carcinoma, the diagnosis is consistent
+     with atypical ductal hyperplasia. Dystrophic calcification is noted
+     within the breast ducts.
+     
+     (2010.03.05 - HK/mk)
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     The specimen container is labeled with the patient name and 'left
+     breast biopsies'. The accompanying requisition matches the container'
+     s label.The specimen consists of 4 cores of tan and fatty tissue, each
+     with a diameter of 0.2 cm, ranging from 1.0 to 1.8 cm in length.
+     Submitted in toto in one block.
+     AM
+     Dictated 3/2/2010
+     
+     
+     
+     
+     
+     Harriette Kahn, MD, FRCPC
+     Report Electronically Signed
+     2010/03/05 16:01",False,False,AtypicalDuctal Hyperplasia,nonmass,nonmassB,0805
+0,0802,Other,2008-03-09,4600874,Malignant,"Mammographic and sonographic medial right
+breast nodule (probably benign). Additional left lateral breast
+asymmetry with no sonographic correlate. MRI for problem solving.",True,False,False,2496,2008-04-08,Left,Radiology,Stereo,Core Needle Biopsy,"?<Report title=""""Surgical Pathology Report""""><Sessions>
+Date: April 08, 2008
+
+AP Report: 
+ (NOTE)
+ 
+ SURGICAL PATHOLOGY REPORT
+ 
+ Patient Name: MCDONALD, LILIANA
+ HFN: 2260316
+ Encounter #:
+ Specimen #: S08-8843
+ 
+ CLINICAL INFORMATION
+ 9 G 21 cores. MRI VAC. R/o cancer.
+ 
+ SPECIMENS SUBMITTED
+ Left Breast, core biopsy stereotactic
+ 
+ 
+ DIAGNOSIS
+ Left breast, stereotactic core biopsy:
+ INVASIVE AND IN-SITU DUCTAL CARCINOMA
+ 
+ Comment:Sections show invasive ductal carcinoma with intermediate
+ nuclear grade. Cribriform in-situ ductal carcinoma with intermediate
+ nuclear grade is also seen. Calcifications associated with in-situ
+ component are present. There is no evidence of lymphovascular invasion
+ in sections examined.
+ 
+ SNM/GO
+ 
+ 
+ MACROSCOPIC DESCRIPTION
+ The specimen container is labeled with the patient name and 'left
+ breast stereotactic biopsy'. The accompanying requisition matches the
+ container' s label.
+ The specimen consists of approximately 2 cc's of soft tan and fatty
+ tissue pieces which are submitted in toto in blocks 1-4.
+ NR
+ Dictated 4/9/2008
+ 
+ 
+ Sharon Nofech-Mozes, MD
+ Report Electronically Signed
+ 4/10/2008 17:19
+
+
+</Sessions></Report>",True,True,InvasiveDuctal,mass,massM,0805
+0,0805,High Risk,2009-09-13,5059167,Unknown,"For further evaluation of right breast
+mammographic calcifications, radiologist recommended. Family
+history of breast cancer.",False,False,False,754,2009-09-25,Right,Radiology,Stereo,Core Needle Biopsy,"Sept 25, 2009
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+
+     Encounter #: 16281905R
+     Specimen #: S09-25208
+     
+     CLINICAL INFORMATION
+     11 G  12 cores. R/o carcinoma. Indeterminate distortion and
+     calcifications. ? FCC ? Radial scar ? Carcinoma.
+     
+     SPECIMENS SUBMITTED
+     Right breast, core biopsy
+     
+     
+     
+     DIAGNOSIS
+     Right breast, core biopsy:
+     -RADIAL SCAR, please see comment
+     
+     COMMENT:
+     The right breast core biopsy show the presence of a radial scar
+     associated with fibrocystic changes including sclerosing adenosis
+     associated with microcalcifications. Columnar cell change is also
+     identified.
+     Immunohistochemical staining for myoepithelial cell marker (MSM)
+     demonstrates the presence of positive cells at the periphery of all
+     ductal structures, in keeping with benign tubules. There is no
+     evidence of atypia or malignancy.
+     
+     SN-M
+     
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     The specimen container is labeled with the patient name and 'right
+     breast biopsy VAC'. The accompanying requisition matches the
+     container' s label.The specimen consists of 12 cores of tan and fatty
+     tissue, each with a diameter of 0.3 cm, ranging from 0.5 to 1.9 cm in
+     length. Submitted in toto in 3 blocks.
+     LS
+     Dictated 9/28/2009
+     
+     
+     
+     
+     
+     
+     
+     Sharon Nofech-Mozes, MD
+     Report Electronically Signed
+     10/2/2009 12:34",False,False,Fibrocystic changes,nonmass,nonmassB,0805

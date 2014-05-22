@@ -1,0 +1,1670 @@
+,cad.cad_pt_no_txt,cad.latest_mutation,exam.exam_dt_datetime,exam.a_number_txt,exam.mri_cad_status_txt,exam.comment_txt,finding.mri_mass_yn,finding.mri_nonmass_yn,finding.mri_foci_yn,proc.pt_procedure_id,proc.proc_dt_datetime,proc.proc_side_int,proc.proc_source_int,proc.proc_guid_int,proc.proc_tp_int,proc.original_report_txt,id,A.countor,alpha.countor,beta.countor,iAUC1.countor,Slope_ini.countor,Tpeak.countor,Kpeak.countor,SER.countor,maxCr.contour,peakCr.contour,UptakeRate.contour,washoutRate.contour,maxVr.contour,peakVr.contour,Vr_increasingRate.contour,Vr_decreasingRate.contour,Vr_post_1.contour,A.inside,alpha.inside,beta.inside,iAUC1.inside,Slope_ini.inside,Tpeak.inside,Kpeak.inside,SER.inside,maxCr.inside,peakCr.inside,UptakeRate.inside,washoutRate.inside,maxVr.inside,peakVr.inside,Vr_increasingRate.inside,Vr_decreasingRate.inside,Vr_post_1.inside,min_F_r_i,max_F_r_i,mean_F_r_i,var_F_r_i,skew_F_r_i,kurt_F_r_i,iMax_Variance_uptake,iiMin_change_Variance_uptake,iiiMax_Margin_Gradient,k_Max_Margin_Grad,ivVariance,circularity,irregularity,edge_sharp_mean,edge_sharp_std,max_RGH_mean,max_RGH_mean_k,max_RGH_var,max_RGH_var_k,texture_contrast_zero,texture_contrast_quarterRad,texture_contrast_halfRad,texture_contrast_threeQuaRad,texture_homogeneity_zero,texture_homogeneity_quarterRad,texture_homogeneity_halfRad,texture_homogeneity_threeQuaRad,texture_dissimilarity_zero,texture_dissimilarity_quarterRad,texture_dissimilarity_halfRad,texture_dissimilarity_threeQuaRad,texture_correlation_zero,texture_correlation_quarterRad,texture_correlation_halfRad,texture_correlation_threeQuaRad,texture_ASM_zero,texture_ASM_quarterRad,texture_ASM_halfRad,texture_ASM_threeQuaRad,texture_energy_zero,texture_energy_quarterRad,texture_energy_halfRad,texture_energy_threeQuaRad
+0,0681,Other,2009-06-23,4999374,Unknown,"Persistent LUOQ mammographic asymmetry with
+distortion. Ultrasound shows cysts and elongated duct.",False,False,False,864,2009-09-10,Left,Radiology,Stereo,Vacuum Assisted Biopsy,"Sept 10, 2009
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+  
+     Encounter #: 4299109R
+     Specimen #: S09-23710
+     
+     CLINICAL INFORMATION
+     Subtle area of distortion in the upper outer quadrant.  R/O carcinoma
+     vs radial scar.
+     NOTE: please fax results to Dr. Curpen at ext 5266
+     
+     SPECIMENS SUBMITTED
+     Left breast samples - 11G x12 cores
+     
+     
+     
+     DIAGNOSIS
+     Left breast, core biopsy:
+     BENIGN BREAST TISSUE WITH PROLIFERATIVE FIBROCYSTIC CHANGES.  There is
+     no evidence of atypia or malignancy.
+     
+     COMMENT:
+     Sections show benign breast tissue with both proliferative changes.
+     There is columnar cell metaplasia and hyperplasia and dystrophic
+     calcifications.  A radial scar is not seen.  There is no evidence of
+     atypia or malignancy.
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     The specimen container is labeled with the patient name and 'left
+     breast core biopsy'. The accompanying requisition matches the
+     container' s label.The specimen consists of 12 cores of tan and fatty
+     tissue, each with a diameter of 0.3 cm, ranging from 1.7 to 3.0 cm in
+     length. Submitted in toto in 4 blocks.
+     LS  Dictated 9/11/2009
+     
+     
+     
+     
+     
+     Judit Zubovits, MD, FRCPC
+     Report Electronically Signed
+     9/15/2009 12:33",0681,0.9928225817882694,5.0428830747503195,0.0001000018170861991,3.7736240780956227,5.006688193929978,2.1472478794440324,-0.0005006779169770182,1.0005134727067835,1.2601780118026848,4.0,0.3150445029506712,0.0,0.292235299068772,1.0,0.292235299068772,0.011440468024277376,0.292235299068772,221.8595296492229,0.001658388743632111,0.09386387252081181,1775.8197118925684,0.36792934663778587,10.560705167252172,-0.03453527328947471,0.7120885462883962,1.5022827782868007,4.0,0.37557069457170017,0.0,0.30849681390600936,1.0,0.30849681390600936,0.01613068482865872,0.30849681390600936,378.25,901.25,674.8814016172506,12217.58454505719,-0.3139579830203546,-0.5123093958236309,2.298033796209945,0.612126488301948,0.06641842203664464,1.0,0.003601004162411313,0.8557308737994869,0.8996353474514971,-1.1145547277293555,0.9694016623617178,9073.54792664479,4.0,29100830.155963052,4.0,7243.439898989901,7099.696149843916,6821.98235887097,6821.98235887097,0.014173628412509583,0.015085964900646126,0.020247736655273654,0.019469014722696215,65.76616161616164,64.79448491155044,62.25984848484849,61.30040322580644,0.14850991622977638,0.18241847569677408,0.19867661919131502,0.19728300646429153,0.000532471176410572,0.0005476323765241941,0.0005387205387205401,0.0005290560370057232,0.02307429543349926,0.023401059620207363,0.023209024855632452,0.023001139397920065
+1,0683,High Risk,2010-03-25,5226149,Malignant,"Palpable mass right breast, sonographically
+suspicious for multicentric carcinoma",True,False,False,509,2010-03-29,Right,Radiology,US,Fine Needle Aspiration,,0683,1.3782434263208545,0.4464200840460604,0.00010000118411721582,1.1302699013738267,0.6152755462140861,18.82544700665373,-6.152828317977536e-05,0.6594483281371517,1.3620674694318964,4.0,0.3405168673579741,0.0,0.2315469291410493,1.0,0.2315469291410493,0.008633316039500452,0.2315469291410493,1.6750952333487752,0.555265564145262,0.00010000079024813159,1.5973805965940189,0.9301226997424469,15.528072187027773,-9.30130050019703e-05,0.7253217801279233,1.6792070753133217,4.0,0.4198017688283304,0.0,0.2402044995527747,1.0,0.2402044995527747,0.014445795233485251,0.2402044995527747,356.0,1095.75,722.703574872572,10044.542003719704,0.044537982292813784,0.005946356915405571,11.267186267577204,0.09956640067182415,0.07868429432602163,1.0,0.004735052442495326,0.8557364652343105,0.9735443643440567,0.5205287532285889,0.7695131793278165,5796.391254944629,2.0,11878599.87014024,3.0,9325.230834612854,9415.708199445982,8267.504413377192,8267.504413377192,0.015229034968088528,0.015545365911438323,0.01698698869234004,0.02014525255316453,75.4346073700373,76.01229916897506,73.89378153103749,66.99602521929823,0.11445147575203042,0.10491947101919333,0.12958093670609547,0.2129552382030838,7.196926158512204e-05,7.257310794116062e-05,7.278717953072773e-05,7.450609803016316e-05,0.008483282128489585,0.008518896958726365,0.008531473236616585,0.008631308968735646
+2,0690,BRCA2,2010-05-09,5180451,Unknown,"BRCA 2. High risk screening. LMP April 28, 2010.
+",True,False,False,1790,2011-02-01,Right,Radiology,MRI,Vacuum Assisted Biopsy,"Feb 01, 2011
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+     
+     Encounter #: 14455708R
+     Specimen #: S11-2964
+     
+     CLINICAL INFORMATION
+     STAT
+     Non mass enhancement right breast. BRCA 2 mutation.
+     
+     SPECIMENS SUBMITTED
+     Right breast, core biopsy
+     
+     
+     
+     DIAGNOSIS
+     Right breast, core biopsy:
+     - FLAT EPITHELIAL ATYPIA
+     - PROLIFERATIVE FIBROCYSTIC CHANGES WITH MODERATE USUAL DUCTAL
+     HYPERPLASIA AND SCLEROSING ADENOSIS
+     - COLUMNAR CELL CHANGES AND HYPERPLASIA
+     - MICROCALCIFICATIONS
+     
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     The specimen container is labeled with the patient name and 'right
+     breast biopsy'. The accompanying requisition matches the container's
+     label.The specimen consists of 12 cores of tan and fatty tissue, each
+     with a diameter of 0.3 to 0.4 cm, ranging from 1.3 to 3.4 cm in
+     length. Submitted in toto in 3 blocks.
+     AMartin
+     Dictated 02/01/2011
+     
+     
+     
+     
+     
+     Reda Saad, MD, FRCPC
+     Report Electronically Signed
+     2011/02/02 17:55",0690,0.9544938903112234,0.2045349313419753,0.00010000157333079184,0.660237000107293,0.195227342321141,37.27381375075809,-1.952304138930318e-05,0.5422992921574843,0.838534387241915,4.0,0.20963359681047875,0.0,0.15572578670148032,4.0,0.03893144667537008,0.0,0.15380091477952249,1.0076056541935827,0.6439652205161084,0.00010000026576405453,1.5565231615867836,0.6488629972960481,13.61934177720099,-6.488647217406581e-05,0.8450533504658446,1.0343417530086663,4.0,0.25858543825216657,0.0,0.15572578670148032,4.0,0.03893144667537008,0.0,0.08633494274618564,642.75,2036.25,1277.0746753246754,184535.56857707503,0.21413322997574116,-1.3284006891358169,8.389945673677083,0.11919028309532871,0.09580060322826556,1.0,0.006647153272087505,0.8557238326840964,0.8579631673085729,-0.2684323861082582,0.9630225974162765,5501.516080112265,3.0,10687715.197034126,3.0,11402.554545454544,10773.121227887612,9761.537046370968,9761.537046370968,0.013837694502774547,0.015620127500373003,0.014070022026100438,0.017263510014362934,85.69191919191921,82.04786680541103,78.60631313131314,76.10257056451613,-0.04375403514889932,0.013753601466812992,0.07986534245958263,0.10986329202795388,0.0005346393225181116,0.0005465495641138644,0.0005361697785940221,0.0005284209157127992,0.023122177918795752,0.023378284238843326,0.02315520479134846,0.022987263374804404
+3,0722,Other,2010-08-24,5366177,Malignant,Right inferior palpable mass.,False,False,True,284,2010-08-26,Right,Radiology,US,Fine Needle Aspiration,,0722,1.4244281704180772,0.3798656514291905,0.007064134648682648,1.2411931460603294,0.5410913348699529,10.538496191515337,-0.0038223420467567797,0.6632557122939485,1.3380429172725015,4.0,0.33451072931812537,0.0,0.24089359577724384,1.0,0.24089359577724384,0.0153405754017835,0.24089359577724384,1.5092295114479355,0.41140424677942966,0.011040504323165112,1.3995725814832625,0.6209034303745246,8.858654179930495,-0.006855087007317987,0.7007477018885323,1.359919482640464,4.0,0.339979870660116,0.0,0.24089359577724384,1.0,0.24089359577724384,0.03180091190366113,0.18893006742680915,399.5,1031.0,674.9536802030457,16981.55826100154,0.6024273333734781,0.4757075570970427,4.72380151653161,0.21169390722712603,0.08424079377914138,1.0,0.005483728328331254,0.8557279574960048,0.9232118492502619,-0.5147933708581437,0.9093466894924419,9928.487580326679,1.0,34837962.12485461,2.0,9224.875663129973,8866.806241426611,8094.384920634922,8094.384920634922,0.017547589684120554,0.01765273972586946,0.022293152165813724,0.029536381419124156,73.47778514588857,70.94684499314124,66.3226127320955,62.41732804232804,0.13248395091390675,0.16581895761306506,0.2140303573635622,0.24882169809595145,0.0006919330326675046,0.0007140962025888097,0.0007029265667105216,0.0007042426023907519,0.026304274592662415,0.026722546574105766,0.026512551283046304,0.026537408774926732
+4,0728,High Risk,2010-06-17,5304244,Unknown,"Left breast Ca 1 o'clock. Outside MRI
+images describe three separate lesions around mass and left lower
+outer left breast enhancement significance unknown
+",False,False,False,190,2010-06-30,Right,Radiology,US,Core Needle Biopsy,"Jun 30, 2010
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+
+     Encounter #: 2799510R
+     Specimen #: S10-17798
+     
+     CLINICAL INFORMATION
+     STAT
+     A) 14 G  3 cores. Solid mass, indeterminate contralateral breast ca.
+     multicentric. B) 14 G  4 Cores. Biopsy at 12 o'clock already proven
+     cancer. Biopsy at 4 o'clock  DCIS vs. invasive. C) Moderate
+     microcalcifications.
+     
+     SPECIMENS SUBMITTED
+     A: Right breast, core biopsy
+     B: Left breast, core biopsy 4 o'clock
+     C: Right breast, stereotactic core biopsy
+     
+     
+     
+     DIAGNOSIS
+     A - Right breast, core biopsy:  FIBROADENOMA
+     B - Left breast, core biopsy 4 o'clock:  SUSPICIOUS FOR ATYPICAL
+     DUCTAL HYPERPLASIA (SEE COMMENT)
+     C - Right breast, stereotactic core biopsy:  BENIGN BREAST TISSUE
+     
+     Comment:
+     A: Sections shows the presence of a fibroepithelial lesion showing the
+     presence of benign breast ducts within fibrous stroma showing focal
+     mild increase in cellularity.  The overall features are consistent
+     with the diagnosis of a fibroadenoma.
+     
+     B: Sections show the presence of one duct showing ductal proliferation
+     with atypia. This duct disappears on deeper levels. This duct is
+     suspicious for atypical ductal hyperplasia. Some ectatic ducts
+     surrounded by chronic inflammatory cells are present. Calcification is
+     noted within the breast tissue.
+     
+     C: Sections shows the presence of benign breast tissue showing the
+     presence of ectatic breast ducts and focal columnar cell  changes.
+     Calcification is noted in the breast tissue.  No evidence of atypia or
+     malignancy is noted in the sections examined.
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     A. The specimen container is labeled with the patient name and 'right
+     breast biopsy samples'. The accompanying requisition matches the
+     container's label.The specimen consists of 3 cores of tan and fatty
+     tissue, each with a diameter of 0.2 cm, ranging from 0.4 to 0.5 cm in
+     length. Submitted in toto in one block.
+     
+     B. The specimen container is labeled with the patient name and 'left
+     breast biopsy samples'. The accompanying requisition matches the
+     container's label.The specimen consists of 5 cores of tan and fatty
+     tissue, each with a diameter of 0.2 cm, ranging from 1.1 to 2.2 cm in
+     length. Submitted in toto in one block.
+     
+     C. The specimen container is labeled with the patient name and 'right
+     breast biopsy samples'. The accompanying requisition matches the
+     container's label.The specimen consists of 6 cores of tan and fatty
+     tissue, each with a diameter of 0.2 cm, ranging from 1.1 to 2.4 cm in
+     length. Submitted in toto in one block.
+     AM
+     Dictated 6/30/2010
+     
+     
+     
+     
+     
+     Harriette Kahn, MD, FRCPC
+     Report Electronically Signed
+     2010/07/05 13:54",0728,1.7644806870110812,0.21242047706096145,0.028382544625724433,2.3253301635511363,0.3748118292997469,10.065907774618942,-0.010638113471349474,0.7135727391819366,1.2155944973738138,4.0,0.30389862434345344,0.0,0.24698511147024252,1.0,0.24698511147024252,0.005525664235601709,0.24698511147024252,1.5918097453128492,0.4068081728446029,0.011444001650966968,2.513683509798724,0.6475612140069529,8.845984568772161,-0.007410691602197743,0.8217935159601847,1.441884225275875,4.0,0.36047105631896875,0.0,0.24698511147024252,1.0,0.24698511147024252,0.017684479227194006,0.20994416511323136,277.75,1386.5,789.1253089576408,27689.88985838273,0.2613573669180695,-0.07886019419385681,5.275320318059708,0.18956194879324512,0.15523670496241898,1.0,0.024952928988037183,0.8557363752247535,0.9871072223759846,0.2811566574931591,0.6256111017521618,18644.598077387716,2.0,122918418.23115703,2.0,8341.784934399711,8080.49058956916,7244.558647798744,7244.558647798744,0.02445172536768519,0.028033362039382937,0.03230721713852979,0.03506378461933447,64.85956595974119,62.30183673469388,58.893489396117886,55.647821203953285,0.23498413695692938,0.2573903362551318,0.29126917442221945,0.3339918059455486,8.648585817422357e-05,9.076053701904043e-05,9.508821214327903e-05,9.909636098417063e-05,0.009298272658029842,0.00952552194580422,0.009749441604489092,0.009952782393527504
+5,0742,,2010-07-23,5329785,Benign by pathology,"Left sided nipple discharge with 2
+unsuccessful ductograms",True,False,False,2488,2010-08-17,Left,Radiology,MRI,Vacuum Assisted Biopsy,"?<Report title=""""Surgical Pathology Report""""><Sessions>
+Date: Aug 17, 2010
+
+AP Report: 
+ (NOTE)
+ 
+ SURGICAL PATHOLOGY REPORT
+ 
+ HFN: 2679564
+ Encounter #: 3804410R
+ Specimen #: S10-22059
+ 
+ CLINICAL INFORMATION
+ ? Carcinoma. Suspicious non-mass enhancement 2 site. A) 9g 13 cores
+ MRI VAC. B) 9 G 13 cores MRI VAC.
+ 
+ SPECIMENS SUBMITTED
+ A: Left lateral breast, core biopsy
+ B: Left medial breast, core biopsy
+ 
+ 
+ 
+ DIAGNOSIS
+ A. Breast (left lateral), core biopsy:
+ - LARGE DUCT PAPILLOMA
+ 
+ B. Breast (left medial), core biopsy:
+ - DUCT PAPILLOMA
+ 
+ Comment:
+ A: Sections of the core biopsy show the presence of a large duct
+ papilloma showing apocrine metaplasia and epithelial as well as
+ myoepithelial proliferation. The papilloma shows sclerosis. The
+ breast tissue also shows duct ectasia and columnar cell changes.
+ Complete excision of the papilloma should be considered.
+ B: Sections show the presence of a small duct papilloma. The breast
+ tissue also shows columnar cell changes and columnar cell hyperplasia.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ MACROSCOPIC DESCRIPTION
+ A. The specimen container is labeled with the patient name and 'left
+ breast biopsy site A, lateral MRI VAC'. The accompanying requisition
+ matches the container's label. The specimen consists of multiple
+ fragments and cores of tan fatty tissue measuring 3.5 x 2.5 x 0.6 cm
+ in aggregate. Submitted in toto in 3 blocks.
+ 
+ B. The specimen container is labeled with the patient name and 'left
+ breast biopsy site B. medial MRI VAC'. The accompanying requisition
+ matches the container's label. The specimen consists of multiple
+ cores and fragments of tan fatty tissue measuring 2.5 x 2.0 x 0.6 cm
+ in aggregate. Submitted in toto in 3 blocks.
+ LS
+ Dictated 8/17/2010
+ 
+ 
+ 
+ 
+ 
+ Harriette Kahn, MD, FRCPC
+ Report Electronically Signed
+ 2010/08/23 15:33
+
+</Sessions></Report>",0742,1.4736176410782367,0.45934536715364804,0.014307170358178573,1.5143311795162626,0.6768994363851754,7.618914709221419,-0.009684515551717763,0.7550922874321576,1.32204073895617,4.0,0.3305101847390425,0.0,0.17783060689239547,1.0,0.17783060689239547,0.010858011278164206,0.17783060689239547,1.6003859876061877,0.5039824302482707,0.016311414391749372,1.7352187191430422,0.8065664193690453,6.870335943941773,-0.013156239100798005,0.7933011331117283,1.4169329888210938,4.0,0.35423324720527344,0.0,0.17783060689239547,1.0,0.17783060689239547,0.015753352910012747,0.16217643514666674,328.5,935.0,564.9797000990238,6533.650352580027,0.531208756929245,0.5144739960161605,4.250009950594477,0.2352935667503845,0.0964227289192891,1.0,0.007340551285097504,0.8557361602944241,0.9896818523107269,-0.6000586368966525,5.242185226622054,19258.720190144366,2.0,131148711.20441982,2.0,8700.196422918643,8634.710382951444,7868.573734177215,7868.573734177215,0.023809904342569452,0.023850709455712264,0.02492653356233872,0.02856254519453722,67.56236150680594,66.20084922288096,66.01863722697058,60.582515822784806,0.20091895354333683,0.20797067416298598,0.21374228019760727,0.2756063570104663,0.00011427113336121104,0.00011614545808004873,0.00011506026837003576,0.00011964103308764627,0.010671573789946313,0.010759422085476606,0.010710919763090456,0.010919743732428202
+6,0742,,2010-07-23,5329785,Benign by pathology,"Left sided nipple discharge with 2
+unsuccessful ductograms",True,False,False,2488,2010-08-17,Left,Radiology,MRI,Vacuum Assisted Biopsy,"?<Report title=""""Surgical Pathology Report""""><Sessions>
+Date: Aug 17, 2010
+
+AP Report: 
+ (NOTE)
+ 
+ SURGICAL PATHOLOGY REPORT
+ 
+ HFN: 2679564
+ Encounter #: 3804410R
+ Specimen #: S10-22059
+ 
+ CLINICAL INFORMATION
+ ? Carcinoma. Suspicious non-mass enhancement 2 site. A) 9g 13 cores
+ MRI VAC. B) 9 G 13 cores MRI VAC.
+ 
+ SPECIMENS SUBMITTED
+ A: Left lateral breast, core biopsy
+ B: Left medial breast, core biopsy
+ 
+ 
+ 
+ DIAGNOSIS
+ A. Breast (left lateral), core biopsy:
+ - LARGE DUCT PAPILLOMA
+ 
+ B. Breast (left medial), core biopsy:
+ - DUCT PAPILLOMA
+ 
+ Comment:
+ A: Sections of the core biopsy show the presence of a large duct
+ papilloma showing apocrine metaplasia and epithelial as well as
+ myoepithelial proliferation. The papilloma shows sclerosis. The
+ breast tissue also shows duct ectasia and columnar cell changes.
+ Complete excision of the papilloma should be considered.
+ B: Sections show the presence of a small duct papilloma. The breast
+ tissue also shows columnar cell changes and columnar cell hyperplasia.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ MACROSCOPIC DESCRIPTION
+ A. The specimen container is labeled with the patient name and 'left
+ breast biopsy site A, lateral MRI VAC'. The accompanying requisition
+ matches the container's label. The specimen consists of multiple
+ fragments and cores of tan fatty tissue measuring 3.5 x 2.5 x 0.6 cm
+ in aggregate. Submitted in toto in 3 blocks.
+ 
+ B. The specimen container is labeled with the patient name and 'left
+ breast biopsy site B. medial MRI VAC'. The accompanying requisition
+ matches the container's label. The specimen consists of multiple
+ cores and fragments of tan fatty tissue measuring 2.5 x 2.0 x 0.6 cm
+ in aggregate. Submitted in toto in 3 blocks.
+ LS
+ Dictated 8/17/2010
+ 
+ 
+ 
+ 
+ 
+ Harriette Kahn, MD, FRCPC
+ Report Electronically Signed
+ 2010/08/23 15:33
+
+</Sessions></Report>",0742,1.56159668827007,0.5112433635852798,0.016670075128309637,1.7069216396819569,0.7983559434748242,6.758654235929002,-0.013308653556857841,0.7994964745655151,1.4234325035579811,3.0,0.4744775011859937,0.005936232813345654,0.21675651458717363,1.0,0.21675651458717363,0.008976764968609238,0.21675651458717363,1.6184915858319306,0.5257046552118296,0.016480767623233326,1.7958705695837074,0.8508485610930224,6.645202614007172,-0.014022637417936547,0.8079675229870924,1.4666600595205728,3.0,0.48888668650685757,0.005136686909001931,0.21675651458717363,1.0,0.21675651458717363,0.01454661010162798,0.20034588234581474,340.25,812.75,567.8155430711611,6904.698028442661,0.2526240868064784,-0.32990627924489935,2.643111051240455,0.5297732237849586,0.09625912064464562,1.0,0.007432624739704129,0.8557326089954388,0.9647692259405748,-0.266461618071143,2.1173617488855117,16680.985526142085,2.0,98381643.95313303,3.0,10212.31588319088,10790.587472607742,10024.118598862018,10024.118598862018,0.02008023138645905,0.022248897840529233,0.023331560860606462,0.025481423803343898,73.38888888888889,76.23831263696127,75.59277065527068,69.81738975817922,0.15567568566295226,0.12100832983951343,0.13193430739216747,0.1815529492782652,0.0004046994342578388,0.00040404746443875394,0.0003951241264275453,0.00040215779154163426,0.020116078391653903,0.020098630495705413,0.0198755190937154,0.020052724619171555
+7,0752,Other,2009-04-13,4940477,Benign by pathology,"Further evaluation of right upper outer
+quadrant distortion and calcifications, prior to recommended core
+biopsy.
+",False,False,False,1155,2009-04-14,Right,Radiology,Stereo,Core Needle Biopsy,"Apr 14, 2009
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+
+     Encounter #: 14257005R
+     Specimen #: S09-9752
+     
+     CLINICAL INFORMATION
+     STAT
+     R/o cancer/DCIS. A) 14G  7 cores, 16G  3 cores. Calcifications in
+     sample. B) 14 G  6 cores.
+     
+     SPECIMENS SUBMITTED
+     A: Right breast, stereo core biopsy
+     B: Right breast, us core biopsy
+     
+     
+     
+     DIAGNOSIS
+     A.     Right breast core biopsy:
+         BENIGN BREAST TISSUE.
+     
+     B.     Right breast core biopsy:
+         BENIGN BREAST TISSUE.
+     
+     COMMENT:
+     A.  The core biopsy shows the presence of a hyalinized fibrous tissue
+     in which occasional benign breast ducts are present.  Calcification is
+     noted within the breast tissue.  No evidence of atypia or malignancy
+     is present.
+     
+     B.  The core biopsy shows the presence of hyalinized fibrous tissue in
+     which occasional benign breast ducts are present.
+     
+     (2009.04.15 - HK/mk)
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     A. The specimen container is labeled with the patient name and 'right
+     breast core biopsy, site A'. The accompanying requisition matches the
+     container' s label.
+     
+     Specimen consists of multiple fragments of fibrofatty tissue with an
+     aggregate measurement of 1.5 x 0.3 x 0.2 cm and submitted in one
+     block.
+     
+     B. The specimen container is labeled with the patient name and 'right
+     breast core biopsy, site B'. The accompanying requisition matches the
+     container' s label.
+     
+     The specimen consists of multiple minute fragments of fibrofatty
+     tissue with an aggregate measurement of 0.4 x 0.3 x 0.2 cm and
+     submitted in one block.
+     IC
+     Dictated 4/14/2009
+     
+     
+     
+     
+     
+     Harriette Kahn, MD, FRCPC
+     Report Electronically Signed
+     4/16/2009 14:09",0752,66.00315252424872,0.0038073881285212163,0.09620978757723703,328.88807922277937,0.25129961936579975,10.19355855605258,-0.024177482997424116,0.5472725084771609,0.9408774154949033,4.0,0.23521935387372583,0.0,0.1337245430714922,1.0,0.1337245430714922,0.012356842475035735,0.1337245430714922,216.39830586469085,0.0015154073589651595,0.11109995271005527,1114.7540634685242,0.32793158517494597,8.94007015326451,-0.03643318360506996,0.5908052734402253,1.0947559839058552,4.0,0.2736889959764638,0.0,0.172277042110818,1.0,0.172277042110818,0.01694302074426096,0.172277042110818,550.25,901.5,748.8900000000001,6598.158163265307,-0.24349189899668466,-0.29091364216229765,3.1353294847001933,0.3965813987161541,0.08936544936544936,1.0,0.006311381190490227,0.8556333798930718,0.7585124605689189,-0.09088655737366161,0.8983674568300783,8654.210074736227,2.0,26343893.50770087,2.0,8866.96388888889,8202.380177514791,8049.189560439559,8049.189560439559,0.0193966197843134,0.020366746725640768,0.018376687314019237,0.019611990871668487,73.39166666666668,67.50739644970415,72.09027777777779,63.35714285714288,0.08546248573449734,0.13948376439167492,0.07453621973970734,0.19002185686667267,0.002847222222222224,0.0030067224536956,0.0028703703703703703,0.0027963108320251213,0.05335793829894533,0.05483331222951692,0.05357496797745767,0.05287886932609844
+8,0755,Other,2009-09-05,5059877,Malignant,"Bilateral reduction mammoplasty. Bilateral
+calcifications and left upper inner thickening. Post menopausal.",False,False,False,723,2009-09-28,Left,Radiology,Stereo,Core Needle Biopsy,"Sept 28, 2009
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+     
+
+     Encounter #: 7005209R
+     Specimen #: S09-25324
+     
+     CLINICAL INFORMATION
+     A) 14 G  5 cores. Left breast highly suspicious calcifications. B) 14
+     G  5 cores. Right breast indeterminate calcifications.
+     
+     SPECIMENS SUBMITTED
+     A: Left breast, core biopsy
+     B: Right breast, core biopsy
+     
+     
+     
+     DIAGNOSIS
+     Part A  Left breast, core biopsy:
+     - DUCTAL CARCINOMA IN SITU
+     
+     Part B  Right breast core biopsy:
+     - BENIGN BREAST TISSUE
+     
+     Comment:
+     Left breast- Multiple levels examined exhibit intermediate-grade
+     ductal carcinoma in situ with apocrine features and
+     microcalcifications. Comedo necrosis is not present. Adjacent ducts
+     show the presence of flat epithelial atypia.
+     
+     Right breast- Multiple levels examined show benign breast tissue with
+     few dilated ducts containing birefringent calcium oxalate crystals.
+     SN-M
+     
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     A. The specimen container is labeled with the patient name and 'left
+     breast biopsy'. The accompanying requisition matches the container' s
+     label.The specimen consists of 5 cores of tan and fatty tissue, each
+     with a diameter of 0.1 cm, ranging from 1.2 to 1.6 cm in length.
+     Submitted in toto in one block.
+     
+     B. The specimen container is labeled with the patient name and 'right
+     breast biopsy'. The accompanying requisition matches the container' s
+     label.The specimen consists of 5 cores of tan and fatty tissue, each
+     with a diameter of 0.1 cm, ranging from 1.3 to 1.6 cm in length.
+     Submitted in toto in one block.
+     
+     LS
+     Dictated 9/29/2009
+     
+     
+     
+     
+     
+     Sharon Nofech-Mozes, MD
+     Report Electronically Signed
+     10/2/2009 12:33",0755,2.4096646483256827,0.12628579472614576,0.060582721733864094,4.477685343806171,0.3043064151373074,8.919415829307624,-0.01843571087009322,0.6872215630799121,1.0495322768997295,4.0,0.2623830692249324,0.0,0.18338756046212118,1.0,0.18338756046212118,0.00855146019675813,0.18338756046212118,1.4891107580593688,0.24991198149979632,0.03226598612554225,1.828860457989635,0.37214662021928063,8.677152393809202,-0.012007677684662748,0.7332762210574217,1.0939912913568222,4.0,0.27349782283920554,0.0,0.18608703267639579,1.0,0.18608703267639579,0.00771285188991223,0.18608703267639579,351.25,1205.0,732.6623762376237,20091.721171224257,0.5405951775598122,0.39094618171212003,1.4954882054794483,0.6686779583657121,0.12632730936764028,1.0,0.015782407410995132,0.855730942186028,0.9511517413297986,-0.23237548072382525,0.9475212422308751,13227.29683034826,2.0,61818911.064666025,3.0,8558.628456221197,7944.794887039237,7370.328160919538,7370.328160919538,0.016195090156650944,0.02061126578207314,0.026236827473232624,0.024948585350082077,70.91417050691244,66.51070154577883,64.02966589861752,60.277011494252854,0.11913195120767843,0.17758419571695938,0.18725502655643814,0.2366408761874547,0.000607559621142941,0.0006395972746334195,0.000628298275605767,0.0006231008059188786,0.02464827504252001,0.025289997556870773,0.025065183240847902,0.024961588330537958
+9,0758,Other,2008-10-30,4796378,Benign by pathology,"Right breast biopsy August 2008 for
+microcalcifications. Pathology reveals atypical lobular
+hyperplasia. Biopsy site was right upper inner quadrant. LMP Oct
+16/08",False,False,False,1520,2008-08-18,Right,Radiology,Stereo,Core Needle Biopsy,,0758,0.8715939999034195,1.3477144770753604,0.003992934249813111,1.2978405914468574,1.1746598518018587,4.321833414224297,-0.004690339554140035,0.9663691469241864,0.8652155364708958,2.0,0.4326077682354479,0.007243059206958391,0.042614879480393546,1.0,0.042614879480393546,7.242874528001995e-05,0.042614879480393546,1.0611126607395702,1.63092913523064,0.024220154102648397,1.6509434591728684,1.7305995541622707,2.5902176230706497,-0.04191538789178481,1.0887161805126275,0.9967059788659608,1.0,0.9967059788659608,0.03030766501716431,0.042614879480393546,1.0,0.042614879480393546,0.00031735467922433996,0.04069142146186307,508.75,958.0,771.2828947368421,8238.266743509717,-0.26339814707300346,-0.0494580569256412,4.303401114647982,0.23237434144732289,0.07262609981212077,1.0,0.006126027820855846,0.8557295825645327,0.8807104632067748,-0.5700475022078798,1.009554559333754,4933.698442440516,1.0,8572628.28299159,4.0,6255.4876543209875,6043.103999999998,5837.282692307692,5837.282692307692,0.023026877037777192,0.017851218145998993,0.018874481420778043,0.025419307471260352,59.222993827160494,60.00960000000002,63.08912037037035,56.408076923076905,0.23738860118387775,0.26507859709753734,0.19028540385558268,0.28619117218683326,0.0008070297020271306,0.000834239999999998,0.0008073273891175135,0.0008097633136094683,0.028407246032440898,0.028882520585160453,0.028413278840172095,0.028456039659130378
+10,0776,Other,2010-08-16,5352670,Malignant,"48 year old female with new palpable lump in
+the left retroareolar region. LMP 21 july 2010
+",True,False,False,317,2010-09-13,Right,Radiology,US,Core Needle Biopsy,"Sept 13, 2010
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+     
+
+     Encounter #: 5517510R
+     Specimen #: S10-24244
+     
+     CLINICAL INFORMATION
+     Bilateral breast biopsies.   Right breast  FA?  Left breast  IDC.
+     NOTE: please fax results to Dr B Curpen at ext 5266
+     
+     SPECIMENS SUBMITTED
+     A: Right breast - 14G x4 cores
+     B: Left breast - 14G x4 cores
+     
+     
+     
+     DIAGNOSIS
+     A. Right breast core biopsy:
+     ATYPICAL CLUSTER OF CELLS  SEE COMMENT
+     
+     B. Left breast core biopsy:
+     INVASIVE DUCT CARCINOMA OF THE BREAST
+     
+     Comment:
+     A.  Sections show benign breast tissue as well as fat.  There is a
+     cluster of atypical cells that lies detached from the surrounding
+     stroma.  This fragment of tissue disappears on serial sections and
+     thus its significance is unclear.  Rebiopsy of this lesion is
+     suggested.
+     
+     B.  Sections of the breast tissue show poorly differentiated invasive
+     ductal carcinoma, NOS with cancerization of lobules.  Invasive tumour
+     necrosis and lymphovascular invasion are not seen.
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     A. The specimen container is labeled with the patient name and 'right
+     breast biopsy'. The accompanying requisition matches the container's
+     label.The specimen consists of 3 cores of tan and fatty tissue, each
+     with a diameter of 0.2 cm, ranging from 0.4 to 1.2 cm in length.
+     Submitted in toto in one block.
+     
+     B. The specimen container is labeled with the patient name and 'left
+     breast biopsy'. The accompanying requisition matches the container's
+     label.The specimen consists of for cores of tan and fatty tissue, each
+     with a diameter of 0.2 cm, ranging from 0.4 to 1.4 cm in length.
+     Submitted in toto in one blocks.
+     AMartin  Dictated 9/13/2010
+     
+     
+     
+     
+     
+     Judit Zubovits, MD, FRCPC
+     Report Electronically Signed
+     2010/09/16 17:29",0776,189.11153980436276,0.0021599077140181944,0.09620225283275821,1037.030366204679,0.40846347363330193,10.279794386851918,-0.03929510636341758,0.5847902651627779,1.5063611350172532,4.0,0.3765902837543133,0.0,0.4019534947029842,1.0,0.4019534947029842,0.04991789998310048,0.4019534947029842,199.652747316397,0.0021452127420620304,0.09931189037003271,1096.6286543501524,0.42829761753082574,9.962076728388897,-0.04253504603796757,0.593624993710734,1.5418875270399082,4.0,0.38547188175997704,0.0,0.4025587093328555,1.0,0.4025587093328555,0.05268095687859078,0.4025587093328555,355.75,867.25,580.5331357758621,6721.432042031674,0.5986750288433937,0.5536877124450319,2.4381553887533873,0.6116686983832761,0.092040283143157,1.0,0.0074869478743037985,0.8557312403283432,0.9584152994171682,-0.18391291501742593,0.8866143761604754,14747.120897114679,4.0,76884584.93635586,4.0,8135.141203703704,7862.7914536157805,5701.570945945947,5701.570945945947,0.014390730889879737,0.018852142915839566,0.02352059779234525,0.03124323892934743,70.74163105413106,67.69101533966399,57.5306267806268,50.65736130867711,0.07731956024546771,0.09438695379493175,0.24176693294494192,0.36118540981812974,0.00038624635757826645,0.0003957104005472313,0.00039195349469566,0.0003980476883261937,0.01965088878834917,0.019889715699171875,0.019794960073544535,0.019944587971848372
+11,0778,Other,2008-11-03,4794199,Unknown,"Left breast lump  MALIGNANT  PHYLLOIDES TUMOUR-Dec 05, 2007
+
+54 yo , prior left mastectomy for phyllodes
+tumor, for follow up of right breast focus of enhancement seen on
+an outside MRI in June/08. LMP Nov/01/2008",False,False,False,2492,2008-12-15,Right,Radiology,MRI,Vacuum Assisted Biopsy,"?<Report title=""""Surgical Pathology Report""""><Sessions>
+Date: Dec 15, 2008
+
+AP Report: 
+ (NOTE)
+ 
+ SURGICAL PATHOLOGY REPORT
+ 
+
+ HFN: 2479678
+ Encounter #: 11220207R
+ Specimen #: S08-32591
+ 
+ CLINICAL INFORMATION
+ A) 9 G 6 cores MRI VAC. In the upper inner quadrant. B) 9 G 10 cores
+ MRI Vac. At 12 o'clock.
+ 
+ SPECIMENS SUBMITTED
+ A: Right breast, medial core biopsy
+ B: Right breast, lateral core biopsy
+ 
+ 
+ 
+ DIAGNOSIS
+ A. Right breast medial core biopsy:
+ CONSISTENT WITH FIBROADENOMA.
+ 
+ B. Right breast lateral core biopsy:
+ BENIGN BREAST TISSUE.
+ 
+ COMMENT:
+ A. The core biopsy shows the presence of fragments of fibroepithelial
+ lesion with focal ductal hyperplasia. The ducts are surrounded by a
+ mildly cellular stroma. No atypia or evidence of malignancy is
+ present. The overall features are those of a complex fibroadenoma.
+ 
+ B. The core biopsy shows the presence of dense stromal fibrosis in
+ which occasional benign breast ducts are present. Calcification is
+ noted within the breast tissue.
+ 
+ (2008.12.18 - HK/mk)
+ 
+ 
+ 
+ 
+ MACROSCOPIC DESCRIPTION
+ A. The specimen container is labeled with the patient name and 'site A
+ medial right breast biopsy '. The accompanying requisition matches the
+ container' s label. The specimen consists of 7 cores of tan and fatty
+ tissue, each with a diameter of 0.3 cm, ranging from 1.2 to 1.5 cm in
+ length. Submitted in toto in two blocks.
+ 
+ B. The specimen container is labeled with the patient name and 'site
+ B. lateral right breast biopsy'. The accompanying requisition matches
+ the container' s label. The specimen consists of 10 cores of tan and
+ fatty tissue, each with a diameter of 0.3 cm, ranging from 1.1 to 2.3
+ cm in length. Submitted in toto in two blocks.
+ LS
+ Dictated 12/16/2008
+ 
+ 
+ 
+ 
+ 
+ Harriette Kahn, MD, FRCPC
+ Report Electronically Signed
+ 12/19/2008 12:04
+
+
+
+</Sessions></Report>",0778,1.6537776617300266,0.5732094049211367,0.006382804000399353,2.6261193736909374,0.9479609093521375,7.8657419612844945,-0.006050648684435032,0.860748479064178,1.6020338379994081,4.0,0.40050845949985203,0.0,0.22179858641560798,1.0,0.22179858641560798,0.0065515532705037365,0.22179858641560798,2.09524607320228,0.6404386636751895,0.019416199627031366,3.479427665735661,1.3418765951923566,5.505464233798587,-0.026054143847095954,0.9618791960728963,1.8806642840535843,2.0,0.9403321420267922,0.03962389316926329,0.22179858641560798,1.0,0.22179858641560798,0.020675587400762852,0.1655233215726513,362.5,683.0,550.5887096774194,3965.215387968614,-0.39802331919133427,0.21713410469727046,5.633621138094729,0.17750572420249697,0.06877616031410898,1.0,0.0031258796909882755,0.8557232939985291,0.8724091600099414,-2.5982140744473097,0.9760518509724013,12120.040194029238,2.0,51637993.192252435,4.0,6205.696818181817,7281.098298676748,6973.663949275362,6973.663949275362,0.02348648835147818,0.020408984399151293,0.022559198671429814,0.01925861338599293,58.6831818181818,65.13327032136107,64.02090909090907,62.899456521739125,0.21761272604143436,0.0777970835791985,0.137991490675172,0.13701313396222925,0.0009520661157024805,0.0009835942553092633,0.0009545454545454553,0.0009402567737870186,0.030855265638209943,0.03136222543058857,0.030893763250979464,0.030663284004302523
+12,0795,High Risk,2010-03-12,5188009,Unknown,"Left spontaneous nipple discharge (greenish) 11
+o'clock duct. Strong family history of breast/ovarian cancer.
+LMP February 28 2010.
+",False,False,False,562,2010-03-01,Left,Radiology,Stereo,Core Needle Biopsy,"Mar 01, 2010
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+     
+     Encounter #: 15508309R
+     Specimen #: S10-5871
+     
+     CLINICAL INFORMATION
+     14 G  4 cores. Calcifications.
+     
+     SPECIMENS SUBMITTED
+     Left breast, core biopsy
+     
+     
+     
+     DIAGNOSIS
+     Left breast core biopsy:
+     AT LEAST ATYPICAL DUCTAL HYPERPLASIA.
+     
+     COMMENT:  The core biopsy shows the presence of one duct with a
+     cribriform morphology. The features in this duct are those of low
+     grade in situ ductal carcinoma, cribriform type.  Adjacent ducts show
+     focal atypical ductal hyperplasia. Since only one duct shows features
+     of low grade in situ ductal carcinoma, the diagnosis is consistent
+     with atypical ductal hyperplasia. Dystrophic calcification is noted
+     within the breast ducts.
+     
+     (2010.03.05 - HK/mk)
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     The specimen container is labeled with the patient name and 'left
+     breast biopsies'. The accompanying requisition matches the container'
+     s label.The specimen consists of 4 cores of tan and fatty tissue, each
+     with a diameter of 0.2 cm, ranging from 1.0 to 1.8 cm in length.
+     Submitted in toto in one block.
+     AM
+     Dictated 3/2/2010
+     
+     
+     
+     
+     
+     Harriette Kahn, MD, FRCPC
+     Report Electronically Signed
+     2010/03/05 16:01",0795,1.5106739083425653,0.32270392252833724,0.02349935086671293,1.356217555298841,0.48750039588335964,8.335979552896669,-0.011455942850524524,0.6799162707266548,1.1985076811838815,4.0,0.2996269202959704,0.0,0.2718437144823396,1.0,0.2718437144823396,0.011576177345829173,0.2718437144823396,1.614559754233524,0.4385171408369408,0.01967375667527043,1.6346843586873292,0.7080121271368788,7.178739464732123,-0.013929258312431586,0.7611005338561883,1.3702556116071947,4.0,0.34256390290179867,0.0,0.2718437144823396,1.0,0.2718437144823396,0.04754948800739916,0.16349834913646258,389.5,903.25,702.1479797979798,10775.235560053981,-0.31652441949929666,-0.3378080714480647,4.245057850071332,0.2802962972313874,0.11096277182550814,1.0,0.011177899488095402,0.8557302452921376,0.9057663181448694,-1.1547962350685252,1.0089752486329358,7669.881146041546,1.0,20779355.872171566,3.0,10256.88612877584,9884.6606122449,9746.113690476188,9746.113690476188,0.011625745996883994,0.013929037758437061,0.018253506777307107,0.014092505280628382,81.86387122416534,78.66387755102039,75.22356915739269,77.23630952380954,0.002328735183056966,0.04148517106427934,0.08171132439222066,0.047989346618565756,0.00041578097315495677,0.0004279883381924198,0.0004187034458006125,0.0004168241370622321,0.020390615797849895,0.020687737972512766,0.02046203864291095,0.020415911200079778
+13,0802,Other,2008-03-09,4600874,Malignant,"Mammographic and sonographic medial right
+breast nodule (probably benign). Additional left lateral breast
+asymmetry with no sonographic correlate. MRI for problem solving.",True,False,False,2496,2008-04-08,Left,Radiology,Stereo,Core Needle Biopsy,"?<Report title=""""Surgical Pathology Report""""><Sessions>
+Date: April 08, 2008
+
+AP Report: 
+ (NOTE)
+ 
+ SURGICAL PATHOLOGY REPORT
+ 
+ Patient Name: MCDONALD, LILIANA
+ HFN: 2260316
+ Encounter #:
+ Specimen #: S08-8843
+ 
+ CLINICAL INFORMATION
+ 9 G 21 cores. MRI VAC. R/o cancer.
+ 
+ SPECIMENS SUBMITTED
+ Left Breast, core biopsy stereotactic
+ 
+ 
+ DIAGNOSIS
+ Left breast, stereotactic core biopsy:
+ INVASIVE AND IN-SITU DUCTAL CARCINOMA
+ 
+ Comment:Sections show invasive ductal carcinoma with intermediate
+ nuclear grade. Cribriform in-situ ductal carcinoma with intermediate
+ nuclear grade is also seen. Calcifications associated with in-situ
+ component are present. There is no evidence of lymphovascular invasion
+ in sections examined.
+ 
+ SNM/GO
+ 
+ 
+ MACROSCOPIC DESCRIPTION
+ The specimen container is labeled with the patient name and 'left
+ breast stereotactic biopsy'. The accompanying requisition matches the
+ container' s label.
+ The specimen consists of approximately 2 cc's of soft tan and fatty
+ tissue pieces which are submitted in toto in blocks 1-4.
+ NR
+ Dictated 4/9/2008
+ 
+ 
+ Sharon Nofech-Mozes, MD
+ Report Electronically Signed
+ 4/10/2008 17:19
+
+
+</Sessions></Report>",0802,79.86594052541503,0.003007858992719825,0.10476302689883887,422.1407326226601,0.2402254874213963,9.410891260648096,-0.02516674920051442,0.6006494630320246,0.8347070395083742,4.0,0.20867675987709355,0.0,0.16825751915274847,1.0,0.16825751915274847,0.00681003204749427,0.16825751915274847,1.5290670232455352,0.2552480103773289,0.04529404563167783,1.6845488763759138,0.3902913154170078,7.414013194405889,-0.017677872650145518,0.7259534983088521,0.9206383235532222,4.0,0.23015958088830554,0.0,0.16825751915274847,1.0,0.16825751915274847,0.016535903370106797,0.13823026397701701,608.0,2636.25,1230.2576419213974,236344.62705891364,1.3246919507969692,0.7917126395315186,6.1777612894723735,0.17094517862149045,0.09226941469181768,1.0,0.006619276641362913,0.8557300170641662,0.8995027759100098,-0.5212474660272532,0.9701329166011922,25394.383817221813,2.0,227820472.61436993,3.0,7102.373842592592,7284.344000000002,6629.839999999998,6629.839999999998,0.0156069182838851,0.015135619956784668,0.018345770242806595,0.014899853359018531,66.55362654320987,67.7576,67.77083333333334,61.69153846153847,0.05634809925412283,0.04590902037756514,0.029022651468972753,0.13355490260893507,0.000796015279682976,0.0008326399999999982,0.0008079227632982784,0.0007964497041420126,0.028213685636182706,0.028855132803215597,0.02842390312842832,0.028221273124695193
+14,0805,High Risk,2009-09-13,5059167,Unknown,"For further evaluation of right breast
+mammographic calcifications, radiologist recommended. Family
+history of breast cancer.",False,False,False,754,2009-09-25,Right,Radiology,Stereo,Core Needle Biopsy,"Sept 25, 2009
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+
+     Encounter #: 16281905R
+     Specimen #: S09-25208
+     
+     CLINICAL INFORMATION
+     11 G  12 cores. R/o carcinoma. Indeterminate distortion and
+     calcifications. ? FCC ? Radial scar ? Carcinoma.
+     
+     SPECIMENS SUBMITTED
+     Right breast, core biopsy
+     
+     
+     
+     DIAGNOSIS
+     Right breast, core biopsy:
+     -RADIAL SCAR, please see comment
+     
+     COMMENT:
+     The right breast core biopsy show the presence of a radial scar
+     associated with fibrocystic changes including sclerosing adenosis
+     associated with microcalcifications. Columnar cell change is also
+     identified.
+     Immunohistochemical staining for myoepithelial cell marker (MSM)
+     demonstrates the presence of positive cells at the periphery of all
+     ductal structures, in keeping with benign tubules. There is no
+     evidence of atypia or malignancy.
+     
+     SN-M
+     
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     The specimen container is labeled with the patient name and 'right
+     breast biopsy VAC'. The accompanying requisition matches the
+     container' s label.The specimen consists of 12 cores of tan and fatty
+     tissue, each with a diameter of 0.3 cm, ranging from 0.5 to 1.9 cm in
+     length. Submitted in toto in 3 blocks.
+     LS
+     Dictated 9/28/2009
+     
+     
+     
+     
+     
+     
+     
+     Sharon Nofech-Mozes, MD
+     Report Electronically Signed
+     10/2/2009 12:34",0805,1.1454246832317359,0.3213347244429807,0.00010000335300278012,0.7828529768746803,0.3680647249564583,25.13063621315563,-3.680770661769187e-05,0.5767935814273771,1.1155945836669101,4.0,0.27889864591672753,0.0,0.24740461925364335,1.0,0.24740461925364335,0.012304344122872263,0.24740461925364335,1.2736215257355523,0.4379809890236557,0.00010000234581026298,1.0971506187103708,0.5578220154834745,19.14458766564974,-5.578351009295629e-05,0.662429313113169,1.283257045908105,4.0,0.32081426147702624,0.0,0.24740461925364335,1.0,0.24740461925364335,0.02051126952882773,0.22721721845149076,359.75,1245.0,807.5477005870843,25684.170037576834,0.421302770534688,0.09341297162833662,4.710293625720728,0.2256960879226654,0.11841814140465175,1.0,0.009515741015887303,0.8557342681891151,0.946834820739615,-0.7089215870482318,0.9337960826316403,11836.291634993673,3.0,49526054.32230054,3.0,10704.442924528303,10263.155036524407,9979.722567873303,9979.722567873303,0.01513960211300435,0.015634390430259597,0.01621613892936747,0.01934230490470362,80.93613207547169,78.10467128027682,78.02330188679247,75.71314102564104,0.06639017404822503,0.08929469599589132,0.07715975459235055,0.10794112431084149,0.00021012815948736197,0.00021381478539957653,0.00020991456034175846,0.00021055781344908318,0.014495183787540509,0.014622016451111622,0.014487916695398555,0.014510284105464417
+15,0813,Other,2010-09-14,5378164,Malignant,"bloody left nipple discharge. Mammograms and ultrasound
+findings suspicious for malignancy medial left breast 8 o'clock 5
+cm from nipple with suspicious low axillary lymph node. Other
+sonographic findings closer to nipple including 5-6 o'clock may
+indicate DCIS. Unsuccessful ductogram.",False,False,False,1578,2010-10-01,Left,Radiology,US,Core Needle Biopsy,"Oct 01, 2010
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+     
+
+     Encounter #: 6405610R
+     Specimen #: S10-26282
+     
+     CLINICAL INFORMATION
+     ? Carcinoma.  A) 14 G  4 cores. Suspicious mass 8 o'clock. B) 14 G  3.
+     Indeterminate mass/duct 5-6 o'clock.
+     
+     SPECIMENS SUBMITTED
+     A: Left breast, core biopsy 8 o'clock
+     B: Left breast, core biopsy 5-6 o'clock
+     
+     
+     
+     DIAGNOSIS
+     A. Left breast, core biopsy 8 o'clock:
+     - INVASIVE LOBULAR CARCINOMA
+     
+     B. Left breast, core biopsy 5-6 o'clock:
+     - PROLIFERATIVE FIBROCYSTIC CHANGE WITHOUT ATYPIA
+     
+     Comment:
+     A. Sections show low grade invasive lobular carcinoma arranged in
+     single files. E-cadherin immunostaining is negative confirming the
+     lobular histogenesis. There is no in situ carcinoma. There is no
+     evidence of lymphovascular invasion.
+     
+     B. Sections show breast tissue with usual ductal hyperplasia.
+     Immunohistochemical staining with CK 5/6 highlights the intraductal
+     proliferation of cells supporting the diagnosis of usual ductal
+     hyperplasia. There is no evidence of malignancy.
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     A. The specimen container is labeled with the patient name and 'left
+     breast biopsy site A 8H'. The accompanying requisition matches the
+     container's label.
+     The specimen consists of 4 cores of tan and fatty tissue, each with a
+     diameter of 0.1 cm, ranging from 0.8 to 1.0 in length. Submitted in
+     toto in one block
+     
+     B. The specimen container is labeled with the patient name and 'left
+     breast biopsy site B 5-6H'. The accompanying requisition matches the
+     container's label.
+     The specimen consists of 2 cores of tan and fatty tissue, each with a
+     diameter of 0.1 cm, measuring 0.7, 1.0 cm in length, respectively.
+     Submitted in toto in one block
+     JP
+     Dictated 10/01/2010
+     
+     
+     
+     
+     
+     Wedad Hanna, MD, FRCPC
+     Report Electronically Signed
+     2010/10/07 17:04",0813,1.1950662274761847,0.6004649294621924,0.00010000103497350507,1.9733451604285264,0.7175953579841357,14.489514840057247,-7.176027849059645e-05,0.8453554423456374,1.2632391267179677,4.0,0.3158097816794919,0.0,0.8210202527633615,1.0,0.8210202527633615,0.0027491098268707845,0.8210202527633615,2.2781982863595505,0.6443420608625257,0.02177840581846352,3.8148009322176613,1.467938978886387,5.3085958883789255,-0.03196937079892869,0.9726187718551599,2.0647751422976732,2.0,1.0323875711488366,0.028183326229246575,0.8210202527633615,1.0,0.8210202527633615,0.007836741928673674,0.8087125935689679,269.0,1665.5,906.5083183453237,99776.13327301692,0.31155106838947283,-0.8619462068417175,10.685974403892397,0.09358060970422567,0.24745305020252856,1.0,0.06061214550235211,0.8557349256828509,0.927907013028538,3.8343353403327494,0.9882564008575382,13776.864250673721,3.0,67109956.03257886,3.0,6731.354694606887,6398.5661157024815,5933.838636363637,5933.838636363637,0.01810030547894356,0.020666470429403273,0.02012186802929653,0.020613745406601096,62.9219460688759,60.480826446281,60.20540935672513,56.52435064935067,0.14323851444380936,0.18832420515344095,0.19620888855192803,0.24479757003623523,0.00018923993074158952,0.0001943719691277919,0.00018995240067535833,0.00018998250126496841,0.013756094689535007,0.01394123544817567,0.013782062580591524,0.013782919760722942
+16,0827,Other,2009-06-13,4985128,Benign by pathology,"72 years old, increasing right lateral
+breast asymmetry suspicious for malignancy. Had FNA at an outside
+institution, pathology is suggestive of angiolipoma. Questionable
+angiosarcoma. Menopausal.",False,False,False,924,2009-07-21,Right,Radiology,MRI,Vacuum Assisted Biopsy,,0827,1.3129950383432987,0.8588411276626589,0.0001000090436971204,2.3651316993148583,1.1276541393462347,10.546997299755878,-0.00011277561209711628,0.916145150222648,1.7038535818049214,4.0,0.42596339545123035,0.0,1.2071288574658519,1.0,1.2071288574658519,0.0164647181307999,1.2071288574658519,1.6099336784454525,1.0331064492853996,0.018276131155754806,3.0485605463288907,1.6632328661237639,3.9224084052689387,-0.030397462003839883,1.042113821743812,1.7380110088835217,3.0,0.5793370029611739,0.06008961121998424,1.2071288574658519,1.0,1.2071288574658519,0.1167865303909396,0.8803571028607244,277.25,1134.0,726.6136363636363,54184.958196508815,0.15193398150596568,-1.1198532267049668,8.776067271215116,0.11394625509309048,0.23804063466177422,1.0,0.061243277587283686,0.8557283986669816,0.861633256966779,21.428228077991175,0.9813113486035249,10973.283042493294,1.0,41682496.05547199,2.0,10423.527361751148,10796.38644470868,10546.899425287358,10546.899425287358,0.016146331777166376,0.01727242401169368,0.0181312151205825,0.019994119862728997,79.45420506912444,80.24613555291323,79.01468894009216,76.88448275862068,0.058905691152050334,0.033169962027237064,0.05090430358769041,0.0522103747763066,0.0006077255303786446,0.0006282863529488269,0.0006032459810146744,0.0006164949134628081,0.024652054148178296,0.025065532898766164,0.02456104223243221,0.024828621678650735
+17,0853,High Risk,2008-09-08,4745782,Unknown,Patient with left nipple discharge,False,True,False,2044,2011-04-11,Right,Radiology,MRI,Vacuum Assisted Biopsy,"Apr 11, 2011
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+     
+
+     Encounter #: 11853005R
+     Specimen #: S11-9661
+     
+     CLINICAL INFORMATION
+     R/o cancer / DCIS. *STAT
+     
+     SPECIMENS SUBMITTED
+     Right breast biopsy
+     
+     
+     
+     DIAGNOSIS
+     Right breast, core biopsy:
+     -          AT LEAST ATYPICAL DUCTAL HYPERPLASIA (PLEASE SEE COMMENT)
+     
+     Comment: Specimen shows mainly benign breast fibroadipose tissue with
+     dilated breast duct (ductectasia). A small focus of atypical ductal
+     proliferation, suspicious for ductal carcinoma in situ, measuring 1.5
+     mm was identified. The focus is quantitatively short of diagnosis of
+     DCIS. Excision of the breast lesion is recommended.
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     The specimen container is labeled with the patient name and 'right
+     breast MR VAB'. The accompanying requisition matches the container's
+     label.
+     The specimen consists of approximately 3 cc's of soft tan and fatty
+     tissue pieces which are submitted in toto in 3 blocks
+     JP
+     Dictated 04/11/2011
+     
+     
+     
+     
+     
+     Reda Saad, MD, FRCPC
+     Report Electronically Signed
+     2011/04/12 16:01",0853,2.0165940700953024,0.3620387685783695,0.09383503079544617,2.2339099866519363,0.7300852338597454,4.366045583261114,-0.06850757040252974,1.0380627680505816,1.207231614582855,2.0,0.6036158072914275,0.1368545251148116,0.21266765895051884,2.0,0.10633382947525942,0.0069419842412122845,0.1865320611157492,2.01151470058838,0.3749597437580596,0.09067240320135911,2.20206946833238,0.7542370366981889,4.36351613525935,-0.06838848470089647,1.0364146412773572,1.2138287445362557,2.0,0.6069143722681278,0.12873699487074897,0.21266765895051884,2.0,0.10633382947525942,0.02436328626694817,0.15378122417014023,323.5,801.75,596.8373786407767,11338.851551030077,-0.36098465211999853,-0.3901144484247604,4.297546008805499,0.40939490909749954,0.17435793084402842,1.0,0.03225885590844066,0.8557085423979941,0.8959775119612635,-0.16507028573285434,1.0167181744449814,12175.814262507018,4.0,52417790.18305979,4.0,9328.251322751323,9825.403739612188,5843.219736842104,5843.219736842104,0.014799180656287053,0.012123610946668532,0.02024190056002092,0.031235334424600088,76.84126984126983,79.05332409972301,69.77050264550265,48.661842105263155,-0.015290873384980141,-0.07754295070679253,0.050970017009787434,0.37271775685510694,0.0013673679348282564,0.0014282042034668232,0.0013656182637664163,0.0013807132963988941,0.03697639000087963,0.03779083047031648,0.03695384045124264,0.037157419809950895
+18,0862,High Risk,2010-10-04,5395314,Malignant,"Recent stereotactic biopsy of left breast
+upper outer quadrant microcalcifications, atypical ductal
+hyperplasia on pathology.",False,False,True,2596,2010-10-28,Left,Surgical/Operating Rm (includes 'Sentinel Lymph Node Biopsy'),N/A,N/A,"Oct 28, 2010
+
+AP Report: 
+     (NOTE)
+     
+     BIOMARKERS  PATHOLOGY REPORT
+     
+
+     Encounter #: 1925610S
+     Specimen #: B10-591
+     
+     SPECIMENS SUBMITTED
+     Left breast lumpectomy
+     
+     
+     
+     DIAGNOSIS
+     - DUCTAL CARCINOMA IN SITU
+         - POSITIVE FOR ESTROGEN RECEPTOR
+         - POSITIVE FOR PROGESTERONE RECEPTOR
+     
+     
+     
+     
+     
+     
+     Specimen #:                        S10-28997
+     Block #:                           A4
+     _____________________:             ____________________
+     Estrogen Receptor
+        ER - Results:                  POSITIVE
+        ER - % Positive Cells:         90
+        ER - Average Intensity:        Strong
+     _____________________:             ____________________
+     Progesterone Receptor
+        PR - Results:                  POSITIVE
+        PR - % Positive Cells:         60
+        PR - Average intensity:        Medium
+     _____________________:             ____________________
+     _____________________:             ____________________
+     For all tests parallel controls:   were adequate
+     Antibody Vendor and Clone:         Estrogen Receptor (Rabbit
+                                       Monoclonal, Clone SP1), Ventana,
+                                       Progesterone Receptor (Rabbit
+                                       Monoclonal, Clone IE2), Ventana
+     
+     
+     
+     
+     
+     
+     
+     Reda Saad, MD, FRCPC
+     Report Electronically Signed
+     2010/11/19 15:00",0862,174.05896487334874,0.002039450104226681,0.14057532681208146,872.043441132822,0.3549845740525393,7.06251578379292,-0.049902072510683244,0.6764402937058355,1.0040262375112812,3.0,0.33467541250376037,0.09002408701552023,0.20522161785791282,1.0,0.20522161785791282,0.011898484797904368,0.20522161785791282,213.98036592310467,0.0025025010292041294,0.15983194344920393,1076.2043036021178,0.5354860859520456,6.208097124571143,-0.0855877818077229,0.7451838407206021,1.2756335337869733,3.0,0.4252111779289911,0.07015514315647908,0.20522161785791282,1.0,0.20522161785791282,0.017801424593057825,0.19281682305769157,471.25,1083.0,825.134126984127,17728.80580831059,-0.15424685928968596,-0.398547194860322,7.368154561241895,0.1952073419380484,0.1215341469302847,4.0,0.014798660614011732,0.8557263101364092,0.8804524886123921,-0.39114061587481613,1.0460022628439982,6363.69153225298,1.0,14272786.480160004,2.0,9773.163636363632,10192.015348595218,9165.514616935483,9165.514616935483,0.014616503070884817,0.014220939446493346,0.01705950079843607,0.01937046137937995,77.66313131313132,80.24375650364205,76.80101010101009,73.07006048387096,0.08105084223950496,0.03217201896555624,0.0766276434307345,0.12262028979341107,0.0005309407203346611,0.0005404587443057606,0.0005245638200183664,0.0005314694979188347,0.02304200828963897,0.02324749123577917,0.022903268373187968,0.023053547349797088
+19,0871,High Risk,2009-11-28,5130094,Malignant,"History of bilateral lumpectomies (11
+previous excisional biopsies for benign disease). Recent core
+biopsy on the left demonstrated ADH. The patient is at high risk
+for breast cancer and is considering prophylactic mastectomies
+(mother (age 38), maternal aunts).",False,False,False,808,2009-10-30,Left,Radiology,Stereo,Core Needle Biopsy,"Oct 30, 2009
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+     
+
+     Encounter #: 7630709R
+     Specimen #: S09-28657
+     
+     CLINICAL INFORMATION
+     RUSH
+     14 G  5 cores. R/o DCIS.
+     
+     SPECIMENS SUBMITTED
+     Left breast, core biopsy
+     
+     
+     
+     DIAGNOSIS
+     Left breast core biopsy:
+     - ATYPICAL DUCTAL HYPERPLASIA.
+     
+     COMMENT:  The core biopsy shows the presence of fibrocystic changes
+     with columnar cell change and hyperplasia.  Focal areas with features
+     of atypical ductal hyperplasia are present.  Calcification is noted
+     within the breast ducts.
+     
+     (HK/mk)
+     
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     The specimen container is labeled with the patient name and 'left
+     breast core biopsies'. The accompanying requisition matches the
+     container' s label. The specimen consists of 5 cores of tan and fatty
+     tissue, each with a diameter of 0.1 cm, ranging from 0.5 to 1.0 in
+     length. Submitted in toto in one block.
+     TK
+     Dictated 10/30/2009
+     
+     
+     
+     
+     
+     
+     Harriette Kahn, MD, FRCPC
+     Report Electronically Signed
+     11/5/2009 17:20",0871,109.53088894276006,0.0017953635790959321,0.09146085476106683,616.7749306194057,0.19664776879383275,10.827710452158064,-0.017985573020740588,0.5768158222711272,0.7837090255824962,4.0,0.19592725639562406,0.0,0.1127161317479451,1.0,0.1127161317479451,0.006213329620142066,0.1127161317479451,165.93727661527157,0.001957480053837113,0.11112604449799135,940.8977765626389,0.3248189091624457,8.920452530978991,-0.036095840553374954,0.6362519962254639,1.0641916150211972,4.0,0.2660479037552993,0.0,0.13054343314813016,1.0,0.13054343314813016,0.01149133139208613,0.13054343314813016,554.5,1477.25,1074.2835846470184,34379.22354624953,-0.1742489756863772,-0.6426208271160938,5.459271023060552,0.26454364845382194,0.05346250144186078,1.0,0.0027597846204926277,0.8557358077514562,0.9420140469812699,-0.8196424018851621,0.8969301878966456,13406.274824028367,2.0,63532700.54867495,4.0,6098.9681372549,5750.565597667641,5390.7970408163255,5390.7970408163255,0.025693240301929696,0.02709814185589564,0.032954262307860256,0.03224412067866601,57.00816993464051,54.5341524364848,51.56954656862745,50.625204081632646,0.2728851441194589,0.3171689680082483,0.35144806321972705,0.35563262448515687,0.00024319155426331742,0.0002488377309121341,0.00024828107645563673,0.00025193669304456485,0.015593783321014628,0.015772667217894734,0.01575586575367712,0.015871542778324955
+20,0871,High Risk,2009-11-28,5130094,Malignant,"History of bilateral lumpectomies (11
+previous excisional biopsies for benign disease). Recent core
+biopsy on the left demonstrated ADH. The patient is at high risk
+for breast cancer and is considering prophylactic mastectomies
+(mother (age 38), maternal aunts).",False,False,False,808,2009-10-30,Left,Radiology,Stereo,Core Needle Biopsy,"Oct 30, 2009
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+     
+
+     Encounter #: 7630709R
+     Specimen #: S09-28657
+     
+     CLINICAL INFORMATION
+     RUSH
+     14 G  5 cores. R/o DCIS.
+     
+     SPECIMENS SUBMITTED
+     Left breast, core biopsy
+     
+     
+     
+     DIAGNOSIS
+     Left breast core biopsy:
+     - ATYPICAL DUCTAL HYPERPLASIA.
+     
+     COMMENT:  The core biopsy shows the presence of fibrocystic changes
+     with columnar cell change and hyperplasia.  Focal areas with features
+     of atypical ductal hyperplasia are present.  Calcification is noted
+     within the breast ducts.
+     
+     (HK/mk)
+     
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     The specimen container is labeled with the patient name and 'left
+     breast core biopsies'. The accompanying requisition matches the
+     container' s label. The specimen consists of 5 cores of tan and fatty
+     tissue, each with a diameter of 0.1 cm, ranging from 0.5 to 1.0 in
+     length. Submitted in toto in one block.
+     TK
+     Dictated 10/30/2009
+     
+     
+     
+     
+     
+     
+     Harriette Kahn, MD, FRCPC
+     Report Electronically Signed
+     11/5/2009 17:20",0871,114.1991681099305,0.0017173187355767894,0.07347294136307385,638.2908205712006,0.19611637098246704,13.453826833166994,-0.014409246625533638,0.5274161211295257,0.8857700012710554,4.0,0.22144250031776386,0.0,0.13102660706061084,1.0,0.13102660706061084,0.011017614228289577,0.13102660706061084,123.3245291318806,0.001660097476720468,0.06890019989688848,688.2993504847389,0.2047307396295748,14.341655972388141,-0.01410598888551553,0.5154997843663979,0.9309409789751973,4.0,0.23273524474379934,0.0,0.13102660706061084,1.0,0.13102660706061084,0.014102915316859635,0.12519607945111863,549.25,1024.5,824.152709359606,7422.647185777692,-0.15505669463139263,0.02249169859845579,1.9654426742905322,0.7248252134136685,0.06033250537159228,1.0,0.0027902579211228767,0.8557281054990944,0.8986953240837665,-0.16701012510364746,0.8177310206914636,11118.096104126631,3.0,43708243.0908804,3.0,8906.196363636362,9115.889886578449,8709.666666666668,8709.666666666668,0.018825955614929307,0.014541615662074483,0.013352104946439685,0.018237432157843462,73.49000000000001,75.6545368620038,76.31136363636364,70.91576086956523,0.08640964470297197,0.058764203505454464,0.030112701111112757,0.11816534618207221,0.0009367768595041329,0.0009751072930699924,0.0009409090909090912,0.0009304111531190925,0.03060646290671391,0.03122656164942395,0.03067374318556121,0.030502339382702432
+21,0871,High Risk,2009-11-28,5130094,Malignant,"History of bilateral lumpectomies (11
+previous excisional biopsies for benign disease). Recent core
+biopsy on the left demonstrated ADH. The patient is at high risk
+for breast cancer and is considering prophylactic mastectomies
+(mother (age 38), maternal aunts).",False,False,False,808,2009-10-30,Left,Radiology,Stereo,Core Needle Biopsy,"Oct 30, 2009
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+     
+
+     Encounter #: 7630709R
+     Specimen #: S09-28657
+     
+     CLINICAL INFORMATION
+     RUSH
+     14 G  5 cores. R/o DCIS.
+     
+     SPECIMENS SUBMITTED
+     Left breast, core biopsy
+     
+     
+     
+     DIAGNOSIS
+     Left breast core biopsy:
+     - ATYPICAL DUCTAL HYPERPLASIA.
+     
+     COMMENT:  The core biopsy shows the presence of fibrocystic changes
+     with columnar cell change and hyperplasia.  Focal areas with features
+     of atypical ductal hyperplasia are present.  Calcification is noted
+     within the breast ducts.
+     
+     (HK/mk)
+     
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     The specimen container is labeled with the patient name and 'left
+     breast core biopsies'. The accompanying requisition matches the
+     container' s label. The specimen consists of 5 cores of tan and fatty
+     tissue, each with a diameter of 0.1 cm, ranging from 0.5 to 1.0 in
+     length. Submitted in toto in one block.
+     TK
+     Dictated 10/30/2009
+     
+     
+     
+     
+     
+     
+     Harriette Kahn, MD, FRCPC
+     Report Electronically Signed
+     11/5/2009 17:20",0871,253.54909643926712,0.0012799907122542642,0.10241347433212733,1443.5583153533305,0.32454048854272266,9.70382520220629,-0.03323731899310619,0.6082857062958882,1.178360650817762,4.0,0.2945901627044405,0.0,0.2373283680962834,1.0,0.2373283680962834,0.014834336697322906,0.2373283680962834,453.73759137535035,0.0011041661729433994,0.11158726470098645,2597.8173439624916,0.5010016997894766,8.917548559964283,-0.05590540929005248,0.6363648971575309,1.6185157186622718,4.0,0.40462892966556796,0.0,0.28808847020693656,1.0,0.28808847020693656,0.02652063739014616,0.28808847020693656,428.25,1113.0,786.3165584415585,27580.11362575333,-0.009825740628105038,-0.9208741839987556,13.402857245996058,0.1227486993584134,0.08153888036758897,1.0,0.005812257167677308,0.8557280771234661,0.8499864397084431,-25.823359023909376,0.8833591264605584,4264.764886298499,4.0,6416381.219422711,4.0,6408.093636363639,6422.603497164462,5172.769021739131,5172.769021739131,0.022304125789244685,0.025044674632341064,0.028842089649695722,0.032306046688437874,58.58545454545455,57.70463137996221,53.26227272727274,47.853260869565226,0.18600652694389544,0.18883886611349143,0.2434536382880177,0.3379578579221639,0.0009520661157024808,0.0009943146286641323,0.0009607438016528938,0.0009702038699852957,0.030855144831422796,0.03153086538259551,0.030995768038004298,0.031146978131636527
+22,0880,Other,2009-03-21,4809515,Unknown,"Right blood nipple discharge with resultant resection
+of a right nipple adenoma with atypical ductal hyperplasia
+incompletely excised. Rule out residual disease. History of
+previous right benign surgical biopsy and bilateral
+sonographically seen breast masses. LMP March 9 2009.",True,False,False,2514,2009-05-22,Right,Radiology,MRI,Vacuum Assisted Biopsy,"?<Report title=""""Surgical Pathology Report""""><Sessions>
+Date: May 22, 2009
+
+AP Report: 
+ (NOTE)
+ 
+ SURGICAL PATHOLOGY REPORT
+ 
+ 
+ HFN: 2538286
+ Encounter #: 7808408R
+ Specimen #: S09-13609
+ 
+ CLINICAL INFORMATION
+ 9 G 6 cores. MR VAB. Linear enhancement on MRI.
+ 
+ SPECIMENS SUBMITTED
+ Right breast, core biopsy
+ 
+ 
+ 
+ DIAGNOSIS
+ Right breast core biopsy:
+ -PAPILLARY LESION WITH FOCAL ATYPIA, please see comment
+ 
+ COMMENT:
+ The right breast biopsy shows a papillary lesion with focal sclerosis
+ and epithelial hyperplasia with atypia.
+ Intradepartmental consultation was obtained.
+ SN-M
+ 
+ 
+ 
+ 
+ 
+ MACROSCOPIC DESCRIPTION
+ The specimen container is labeled with the patient name and 'right
+ breast biopsy'. The accompanying requisition matches the container' s
+ label The specimen consists of 8 cores of tan and fatty hemorrhagic
+ tissue, each with a diameter of 0.3 cm, ranging from 1.5 to 1.9 cm in
+ length. Submitted in toto in 3 blocks.
+ LS
+ Dictated 5/22/2009
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Sharon Nofech-Mozes, MD
+ Report Electronically Signed
+ 5/25/2009 15:51
+
+</Sessions></Report>",0880,1.1479536790300573,0.6660136713504623,0.007643675940401684,1.3470864652070338,0.7645528443110786,6.72485138969004,-0.0058439941812262666,0.8299080250440766,1.1520894989270858,4.0,0.28802237473177145,0.0,0.25579610261511126,1.0,0.25579610261511126,0.006307474511159696,0.25579610261511126,1.5084967806109777,0.5437701419518157,0.03000148317350561,1.596582403497093,0.8202755085266884,5.426897146955268,-0.024609481866702202,0.8533289700484069,1.3139643350318166,3.0,0.4379881116772722,0.015389161038654509,0.39291715299171676,1.0,0.39291715299171676,0.01065233142609423,0.39291715299171676,340.25,901.5,701.1301775147929,10055.370971948281,-0.7204451418157516,0.7224598476579658,5.015125105840268,0.1993968203974551,0.16439845680410684,1.0,0.022898461512063057,0.8557324035456703,0.9350462776494228,-0.5059639168806351,0.9633692475995187,3865.1648207216845,1.0,5281116.623725541,4.0,9532.010135135133,9523.008367346942,9316.522619047619,9316.522619047619,0.013954441712686895,0.015047492280538168,0.013135928346994638,0.01814994451612804,77.21045310015899,77.07326530612247,78.46581875993641,74.05357142857142,0.054204497862727005,0.05922112942197912,0.044747134575254546,0.08294035141055886,0.0004187824315477922,0.0004287380258225739,0.00041736068809855424,0.00041981607457797926,0.020463910288005316,0.020705853397936524,0.020429353989505083,0.02048929284806656
+23,0881,Other,2005-11-17,3862727,Unknown,"Possible locally advanced cancer, with suspicious area
+in lower breast. For disease extent. Apparently there is an
+outside FNA of a 3:30 lesion that is positive for malignancy
+",False,False,False,768,2009-07-28,Right,Radiology,Stereo,Core Needle Biopsy,,0881,38.06983355730651,0.002104999396107754,0.07579475378699821,241.91035704430107,0.08013697664805292,13.013640546101406,-0.006073962414273596,0.5852173529767688,0.3579668733141827,4.0,0.08949171832854567,0.0,0.018357516596514488,1.0,0.018357516596514488,0.0008299232005808364,0.018357516596514488,20.293763386440386,0.00456232093978004,0.08397099051411787,125.21283262961134,0.09258666164489847,11.596618108808967,-0.00777459368671761,0.6119313518406689,0.3819640025394007,4.0,0.09549100063485018,0.0,0.018357516596514488,1.0,0.018357516596514488,0.0010565486658302003,0.017651327328431634,808.25,1844.25,1373.7471910112358,31379.717319985353,-0.11617190459283812,0.07141828716416765,1.250235366574044,0.8066390731423397,0.06205499393323608,1.0,0.003066734620773557,0.8557315988569061,0.9674252079974618,0.7650201653131786,0.9818013706426322,15400.228428764189,3.0,83773657.72236368,4.0,11438.62582236842,11093.77508650519,11257.206699346407,11257.206699346407,0.015494373024354482,0.01314831420412373,0.01218945832077173,0.014328257852098694,87.33305921052633,85.89619377162629,85.35361842105264,86.02205882352942,-0.015744506639429428,0.013339461958197086,0.004183822340195885,0.0004574388800860814,0.001673141014542931,0.001760036398031633,0.0016744935941828203,0.0016686958007603924,0.040903525916170504,0.041952757391319734,0.0409202179474623,0.04084903489277786
+24,0883,Other,2010-01-22,5177385,Malignant,"Left calcifications, for biopsy. Extent of disease.
+Postmenopausal.
+",False,True,False,605,2010-01-26,Left,Radiology,Stereo,Core Needle Biopsy,"Jan 26, 2010
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+     
+
+     Encounter #: 14207609R
+     Specimen #: S10-2456
+     
+     CLINICAL INFORMATION
+     Suspicious calcifications.
+     NOTE: please fax results to Dr. Wright at ext 5266
+     
+     SPECIMENS SUBMITTED
+     Left breast core biopsy - 14G x5
+     
+     
+     
+     DIAGNOSIS
+     
+     Core biopsy, left breast:  AT LEAST DUCT CARCINOMA IN SITU
+     
+     Comments
+     Sections chow a solid intermediate grad e duct carcinoma in situ with
+     microcalcifications. There is no definite evidence of invasion on
+     routine histology or immunohistochemistry
+     
+     WH/kl
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     The specimen container is labeled with the patient name and 'left
+     breast core biopsy'. The accompanying requisition matches the
+     container' s label.The specimen consists of 5 cores of tan and fatty
+     tissue, each with a diameter of 0.2 cm, ranging from 0.9 to 1.5 in
+     length. Submitted in toto in one block.
+     AM
+     Dictated 1/26/2010
+     
+     
+     
+     
+     
+     Wedad Hanna, MD, FRCPC
+     Report Electronically Signed
+     1/29/2010 18:52",0883,1.0149105770932634,0.23857021526443511,0.00010000109518804182,0.6425620865877223,0.2421274348512919,32.601122834004364,-2.4213008660200436e-05,0.5497646998947247,0.8846729510966413,4.0,0.22116823777416034,0.0,0.17868859048947655,1.0,0.17868859048947655,0.005841318396908185,0.17868859048947655,1.2113382587544121,0.4171107355957657,0.00010000110006020266,1.1744215695603288,0.5052621921643469,19.985497468604688,-5.0526775035264194e-05,0.6850891549443615,1.1724317828007238,4.0,0.29310794570018095,0.0,0.22673875271704594,1.0,0.22673875271704594,0.009802586408678019,0.22673875271704594,399.25,2448.75,1294.490308988764,200967.48805311345,0.6407854969544882,-0.4540468245949847,5.871415072455225,0.1820591959156546,0.10474899341354993,1.0,0.011254860794619313,0.8557354283706547,0.9497470698672954,-0.5650560784477551,0.9717753705229656,42362.79232912006,4.0,634552696.990752,4.0,9540.402239709445,9617.080255463221,8603.161902601336,8603.161902601336,0.014453171139925726,0.014482345703635695,0.016298771581619617,0.018428164518594654,77.92161016949152,77.7481532779317,73.18485169491527,69.95258620689654,0.04142146003575857,0.03799820023509334,0.1023226913443701,0.14297832922165638,0.00016950389211990466,0.000171762488465092,0.00017101537720805077,0.00017154047948165894,0.013019355974770141,0.013105748167283892,0.013077205039343984,0.013097274099365742
+25,0884,Other,2011-08-05,6876318,Unknown,Kmown malignancy RUOQ - for extent of disease \T\ nodal assessment Post menopausal,False,False,False,2595,2011-08-10,Right,Radiology,None,Core Needle Biopsy,"Aug 10, 2011
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+
+     Encounter #: 7109011R
+     Submitting Physician: HOLLOWAY,CLAIRE
+     Specimen #: S11-21347
+     
+     CLINICAL INFORMATION
+     Highly suspicious mass right breast. *Receptors Her2Neu, ER, PR.
+     
+     SPECIMENS SUBMITTED
+     Right breast biopsy
+     
+     
+     
+     DIAGNOSIS
+     Right breast, core biopsy:
+     INVASIVE DUCT CARCINOMA OF THE BREAST
+     
+     COMMENT:
+     Sections show an invasive duct carcinoma, not otherwise specified.
+     The tumour is intermediate grade.  Dilated lymphovascular spaces are
+     noted but lymphovascular invasion is not seen in the sections
+     examined.  Receptor studies have been ordered and will be reported in
+     an addendum.
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     The specimen container is labeled with the patient name and 'right
+     breast biopsy'. The accompanying requisition matches the container's
+     label.The specimen consists of 4 cores of tan and fatty tissue, each
+     with a diameter of 0.1 cm, ranging from 1.2 to 1.6 cm in length.
+     Submitted in toto in one block.  LS  Dictated 08/11/2011
+     
+     
+     
+     
+     
+     Judit Zubovits, MD, FRCPC
+     Report Electronically Signed
+     2011/08/12 16:46
+
+--------------------------------
+Aug 10, 2011
+
+AP Report: 
+     (NOTE)
+     
+     BIOMARKERS  PATHOLOGY REPORT
+
+     Encounter #: 7109011R
+     Submitting Physician: HOLLOWAY,CLAIRE
+     Specimen #: B11-1428
+     
+     SPECIMENS SUBMITTED
+     Right breast, biopsy
+     
+     
+     
+     DIAGNOSIS
+     INVASIVE DUCTAL CARCINOMA
+         - LOW POSITIVE FOR ESTROGEN RECEPTOR
+         - NEGATIVE FOR PROGESTERONE RECEPTOR
+         - POSITIVE FOR HER2/NEU ONCOPROTEIN OVEREXPRESSION
+     
+     
+     
+     
+     
+        Specimen #:                        S11-21347
+     Block #:                           A1
+     _____________________:             ____________________
+     Estrogen Receptor
+        ER - Results:                  LOW POSITIVE
+        ER - % Positive Cells:         9
+        ER - Average Intensity:        Medium
+     _____________________:             ____________________
+     Progesterone Receptor
+        PR - Results:                  NEGATIVE
+        PR - % Positive Cells:         0
+        PR - Average intensity:        Absent
+     _____________________:             ____________________
+     HER2 (IHC) - Score:                POSITIVE (3+)
+        HER 2 - % Positive Cells:      100
+        Note:                          Strong complete membranous
+                                       staining was identified.
+     _____________________:             ____________________
+     _____________________:             ____________________
+     _____________________:             ____________________
+     For all tests parallel controls:   were adequate
+     Antibody Vendor and Clone:         Estrogen Receptor (Rabbit
+                                       Monoclonal, Clone SP1), Ventana,
+                                       Progesterone Receptor (Rabbit
+                                       Monoclonal, Clone IE2), Ventana,
+                                       4B5 (Rabbit Monoclonal), Ventana
+     IHC Definition:                    Immunohistochemistry
+     
+     
+     
+     
+     
+     
+     
+     Reda Saad, MD, FRCPC
+     Report Electronically Signed
+     2011/08/17 14:24",0884,1.0049571842969494,0.2490227463491439,0.00010000229337903462,0.5822556647656415,0.2502571979969291,31.404793399613347,-2.5026293734304055e-05,0.5506187741748519,0.8900763800934294,4.0,0.22251909502335734,0.0,0.18143347309008295,1.0,0.18143347309008295,0.0022600773837839574,0.18143347309008295,1.3349187243861982,0.6454455633148131,0.00010000108567191225,1.5400165472343896,0.8616173680409414,13.591649754067182,-8.616267223786973e-05,0.7941289990670438,1.374913999262644,4.0,0.343728499815661,0.0,0.45041420818954364,1.0,0.45041420818954364,0.002452475925398064,0.45041420818954364,465.5,3813.75,1462.2094331133771,456017.6800333676,1.1594469999267951,0.9029574803534235,12.667296674593233,0.07894344197414258,0.11827992912234245,1.0,0.012217221830120369,0.8557360643011706,0.9648480943907322,-0.5909442201316645,0.9916891611202161,25970.774067586848,2.0,238484686.81410444,4.0,11148.317830817829,11106.266577777778,10906.748333333331,10906.748333333331,0.013119645496787385,0.012502807171417309,0.013452306822073412,0.013775759695415522,85.59310284310286,85.14675555555554,85.06590031590034,83.57061403508774,0.016732420778590995,0.0201215204856972,0.02166862471211756,0.03736914449964487,0.00010382015032769692,0.00010514172839506172,0.00010431680535225646,0.00010441289627577719,0.01018918203196202,0.010253862037761814,0.010213527639788875,0.010218203488546782
+26,6001,Other,2008-02-01,4574766,Unknown,Biopsy proven left breast invasive cancer with focal in situ component (prior ork-up done at an outside institution). Pre-operative MRI to determine extent of disease.,False,False,False,2,2008-02-12,Left,Surgical/Operating Rm (includes 'Sentinel Lymph Node Biopsy'),N/A,N/A,,6001,0.33028910041275594,13.87205260954677,0.00010000144530079375,1.071467697596677,4.581787777285626,0.8535297315893252,-0.00045818539979007394,1.000907090929084,0.5677197291967642,4.0,0.14192993229919104,0.0,0.16239663143013902,4.0,0.040599157857534755,0.0,0.1609878541815403,0.5606640499480509,13.381612526854465,0.0001000008692097873,1.8173296438741375,7.502589074141794,0.8821224418466506,-0.0007502654287380328,1.000907085701121,0.7519950743077553,4.0,0.1879987685769388,0.0,0.16239663143013902,4.0,0.040599157857534755,0.0,0.133325850032351,1338.0,2881.0,2179.310344827586,96219.9937171245,-0.1576196320506891,-0.8193246000879791,5.248221614957803,0.2999595557181288,0.0785648235454406,1.0,0.004216468342434913,0.8557349616835939,0.9352431045490405,-0.4637910879137665,0.8787521292737412,11013.004381102475,4.0,42867170.47202588,4.0,10835.165942928043,11037.138133030989,10897.215029761903,10897.215029761903,0.012789764151701011,0.01095630591294412,0.011823689526046266,0.0129159351260963,84.89770471464018,85.7152305366591,84.79361042183628,84.98338293650795,0.009143675001903209,-0.009528923494231458,0.013872916666631143,0.002833294029872524,0.0001407711395304447,0.00014337780687706902,0.0001408250158550326,0.0001412235720387693,0.011864632363970194,0.011973944627661322,0.011866873347945874,0.011883728323083589
+27,6005,Other,2009-09-08,ACC108250,Malignant,"Bilateral breast carcinomas - according to EPR right
+mass is a biopsy proven invasive ductal cancer while the left
+breast biopsy showed LCIS (I do not have the biopsy or pathology
+reports). Evaluate extent of disease. LMP: September 7, 2009",False,False,False,844,2009-09-22,Left,Radiology,US,Fine Needle Aspiration,,6005,1.3341778718082682,0.5315167226434263,0.00010000170724123208,1.74084480018444,0.7091378498469121,16.13964423322663,-7.09149956540677e-05,0.7824205417994485,1.475047130202679,4.0,0.36876178255066977,0.0,0.5555747345917371,1.0,0.5555747345917371,0.006945936803447165,0.5555747345917371,1.8612878921973919,1.08777627372441,0.02096413679721219,3.3843560592345354,2.0246648077028406,3.6479621538650773,-0.04244534999718366,1.0513400488587423,1.7471532810499522,2.0,0.8735766405249761,0.041898951057773415,0.5555747345917371,1.0,0.5555747345917371,0.08098732512585184,0.30989392452686215,312.0,1822.0,822.0675421371297,27848.291989848054,-0.0604427167438036,-0.022245205256952172,8.736557772721843,0.11446155637204165,0.13789942214586914,1.0,0.016070852417553506,0.8557366113591969,0.9849392108005466,0.1660935355181012,1.1333883384030723,30458.1213744157,1.0,328020130.0238962,4.0,9418.38840466742,9406.272259215224,9158.157144544166,9158.157144544166,0.021793545048675266,0.02118544840640076,0.020710849138199088,0.02279026150071765,71.38774329176117,71.81556480380497,72.84435232426303,69.29235947094944,0.14508002309056692,0.14123002818988592,0.12854241980543182,0.16425266491276197,4.5919938480137195e-05,4.540995728713204e-05,4.486517025870567e-05,4.634720302992913e-05,0.00677600172567646,0.006738245463311695,0.006697883649173521,0.006807569003984364
+28,6019,Other,2009-10-10,ACC109175,Unknown,"46 year old with dense breast. Left breast
+mass, biopsied at an outside institution with a diagnosis of
+fibroepithelial lesion. Repeat biopsy at this institution with a diagnosis of ALH and LCIS.",False,False,False,676,2009-10-01,Left,Radiology,US,Fine Needle Aspiration,"The Primary Accession Number : 5072871. The Associated Accession Number : 5072872^5072873^5088246^,
+BILATERAL MAMMOGRAM and left LM view, BILATERAL MAGNIFICATION
+VIEWS,
+TARGETED RIGHT BREAST ULTRASOUND, WHOLE LEFT BREAST AND AXILLA
+ULTRASOUND, ULTRASOUND GUIDED LEFT AXILLARY FINE NEEDLE ASPIRATION
+AND CORE BIOPSY
+
+HISTORY: Left mammographic and sonographic mass and
+calcifications, outside FNA positive but core biopsy negative for
+malignancy. Right sonographic mass.
+
+Films were compared with previous outside imaging.
+
+FINDINGS:
+
+MAMMOGRAM/MAGNIFICATION VIEWS:
+
+The breast tissue is dense.
+
+There is an obscured mass in the left lower outer anterior breast
+with overlying calcifications; the calcifications that directly
+overlie the mass are fine and irregular. Some additional
+calcifications extend roughly 4 cm posterior and 5 cm superior to
+the mass are punctate and loosely scattered, with a benign
+appearance.
+
+There are right central calcifications; magnification views show
+these to be in a loose cluster with some punctate calcifications
+and many of the calcifications showing layering on the straight
+lateral view, with a benign appearance
+
+There is no architectural distortion.
+
+ULTRASOUND:
+
+Targeted right breast ultrasound to the upper outer quadrant shows
+shadowing tissue and scattered cysts. In the 11 o'clock position
+5 cm from the nipple there is a vague avascular hypoechoic lesion
+measuring 1.2 x 0.5 x 1.0 cm. This corresponds to the lesion
+imaged on the outside ultrasound. The appearance today is more in
+keeping with a fat lobule rather than a solid mass like a
+fibroadenoma.
+
+Left axillary ultrasound shows a couple of lymph nodes with
+slightly prominent cortex, marker measures 1.1 x 0.6 x 2.3 cm,
+with the cortex measuring 0.4 cm. The fatty hilum is preserved.
+
+Whole left breast ultrasound shows shadowing tissue and scattered
+cysts. In the 5 o'clock position 2 cm from the nipple,
+corresponding to the mammographic mass and calcifications, there
+is an avascular hypoechoic irregular mass with posterior shadowing
+measuring 1.9 x 1.1 x 1.9 cm. There are prominent arteries on
+either side of the mass.
+
+BIOPSY:
+
+Informed consent. Sterile technique and ultrasound guidance used.
+The skin/subcutaneous tissues over the axillary lymph node and
+breast mass were infiltrated with 5 cc of 2% lidocaine. An 18G
+needle was inserted into the axillary lymph node cortex and
+aspiration was performed. Sample sent in a container to cytology.
+No immediate complications. A skin nick was made over the breast
+mass. A 14G core biopsy needle was used to obtain 4 samples
+however the samples were small and fragmented, thus a 16G core
+biopsy needle was used to obtain 5 samples. Samples sent in
+container to pathology. No immediate complications.
+IMPRESSION:
+
+1. Right and left mammographic calcifications are likely benign,
+recommend 6 month follow up magnification views.
+
+2. Right sonographic mass is likely benign, recommend 6 month
+targeted ultrasound.
+
+3. Left mammographic and sonographic mass and overlying
+calcifications are suspicious - core biopsy was performed and an
+addendum will be dictated when pathology results are available.
+
+4. Left axillary lymph node is indeterminate - fine needle
+aspiration was performed and an addendum will be dictated when
+cytology results are available.
+
+5. Dense breasts. Due to the suspicious mass, recommend breast
+MRI. Please submit a requisition for this.
+
+This report was electronically signed by Dr. CARRIE BETEL, MD,
+FRCPC, staff radiologist, on Thursday, October 01, 2009 at
+11:53:00.
+
+Addendum # 1 by Carrie Betel on 2009-Oct-14 0937
+
+ADDENDUM:
+
+Cytology of the axillary lymph node is benign. This is concordant
+with imaging. Recommend 6 month ultrasound follow up.
+
+Pathology shows ALH/LCIS. Please refer to the full pathology
+report. This could be concordant with imaging however surgical
+excision is recommended to exclude underlying invasive malignancy.
+
+Note that breast MRI has been performed, please refer to that
+report for MRI findings and recommendations.
+
+Also note that bilateral magnification views and right targeted
+ultrasound in 6 months are also recommended.
+
+BIRADS 6
+
+This report was electronically signed by Dr. CARRIE BETEL, MD,
+FRCPC, staff radiologist, on Wednesday, October 14, 2009 at
+09:37:57.",6019,946.7025311444082,0.0025528545185089513,0.29913215264853144,7292.524407837041,2.4167938343158637,3.328819763701601,-0.7229407421666025,1.9816232955626454,3.1706751769515313,2.0,1.5853375884757657,1.1824652785689294,3.4714580581965455,4.0,0.8678645145491364,0.0,1.3291022229377982,1000.04976444692,0.0026180363959642516,0.3054475860412205,7752.814228154246,2.618166681097513,3.2599333026805764,-0.7997126925947894,2.052464244358607,3.3282039125541116,2.0,1.6641019562770558,1.2849883471616117,4.14408425349338,4.0,1.036021063373345,0.0,1.5412545808006446,322.75,438.5,373.6363636363636,2038.9454545454544,-0.05516116660153564,-0.41171333971590396,14.253903681788294,0.15118379915476582,0.15858146537303444,4.0,0.030323711456009282,0.8544565580575841,0.34106619167312635,-0.07838064186282227,1.0942044108519333,1076.272464936845,3.0,404026.6645438512,3.0,6042.849999999999,3749.361111111111,1788.5,1788.5,0.0051522185825273025,0.0037066763524941614,0.02933801289278661,0.038798923979094874,68.25,52.638888888888886,35.875,35.166666666666664,-0.6008160291649699,-0.40575130379416025,0.1719922789188123,0.25669783820202274,0.050000000000000024,0.05555555555555555,0.051250000000000025,0.04253472222222224,0.22360679774997905,0.23570226039551584,0.22633529531027716,0.2062078955238735
+29,6021,High Risk,2009-03-14,4798692,Unknown," High risk screening MRI.
+",True,False,False,1094,2009-04-23,Left,Radiology,MRI,Vacuum Assisted Biopsy,"Apr 23, 2009
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+
+     Encounter #: 3722308R
+     Specimen #: S09-10666
+     
+     CLINICAL INFORMATION
+     R/o cancer.
+     
+     SPECIMENS SUBMITTED
+     Left breast biopsy
+     
+     
+     
+     DIAGNOSIS
+     Left breast, core biopsy:
+     ATYPICAL LOBULAR HYPERPLASIA  SEE COMMENT
+     
+     COMMENT:
+     Sections show benign breast tissue with rare foci of ruptured apocrine
+     cysts and surrounding chronic inflammation.  A few foci of atypical
+     lobular hyperplasia are seen.  Occasional small dystrophic
+     calcifications are noted.  There is no evidence of malignancy.
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     The specimen container is labeled with the patient name and 'left
+     breast biopsy'. The accompanying requisition matches the container' s
+     label.  The specimen consists of multiple pieces of fibrofatty tissue
+     with an aggregate measurement of 4.0 x 2.0 x 0.7 cm, submitted in 3
+     blocks.
+     IC  Dictated 4/24/2009
+     
+     
+     
+     
+     
+     Judit Zubovits, MD, FRCPC
+     Report Electronically Signed
+     4/28/2009 15:46",6021,105.09062593429125,0.0017809312080712125,0.08712762200110694,703.6386598571365,0.1871591754021172,11.361688786649752,-0.01630673388847454,0.6163106790079984,0.9097387332703348,4.0,0.2274346833175837,0.0,0.28413291362075566,1.0,0.28413291362075566,0.006571278335393005,0.28413291362075566,2.434528068808473,0.12227646187987551,0.060332054840176175,4.929825231434876,0.2976854786011462,9.057189254335473,-0.017959976620088445,0.7125211371072732,1.0085812687993496,4.0,0.2521453171998374,0.0,0.28413291362075566,1.0,0.28413291362075566,0.03382442136198544,0.20391789595468507,350.0,1823.0,1060.8,99857.97334209763,0.25921564824809085,-0.4949718314320962,4.134106626293219,0.2535265813016128,0.18920633606085835,1.0,0.04479463183975862,0.8557324000632031,0.9187726245990223,-0.5305753986423336,0.9475581533651284,11965.503481170475,4.0,50617181.09288713,4.0,10600.982905982904,10350.837472607745,10817.220128022755,10817.220128022755,0.013523072471813658,0.015245523742083995,0.013079315669235175,0.014771347176613953,83.39850427350426,81.53214024835646,83.56410256410257,83.90398293029874,0.01899833071797013,0.037865213346510655,-0.000922374001758324,-0.00820180292531937,0.0003781929529792779,0.00038757342618910527,0.0003762271613055089,0.00037300767489058267,0.019447095798689338,0.019686784251966214,0.019396376644526956,0.019313394755352955
+30,6022,Other,2009-08-16,5046558,Unknown,"Known left locally advanced breast cancer.
+LMP August 14/09",True,False,False,60,2010-03-25,Left,Surgical/Operating Rm (includes 'Sentinel Lymph Node Biopsy'),N/A,N/A,,6022,4.163596658993509,0.22025237837520661,0.08171151700557255,5.207715131979627,0.9170420667383844,5.934612416899765,-0.0749328984311189,0.7672345290173415,1.8926273818370094,4.0,0.47315684545925235,0.0,0.3305163668174844,1.0,0.3305163668174844,0.029615211014315034,0.3305163668174844,4.7954208365408055,0.24046576502680894,0.09238748725216223,6.0523392178775035,1.153134540084285,5.330114907343403,-0.10653520262206483,0.8331463234105116,2.12561040729596,3.0,0.7085368024319867,0.050863141384775545,0.3305163668174844,1.0,0.3305163668174844,0.04540377236273286,0.2775750174294423,296.75,865.75,511.8997305885604,4129.075981899092,0.3950310501290868,0.6659935801800864,9.438879717360793,0.10594477628109981,0.11821240556628841,1.0,0.011111827815321858,0.8557366053547367,0.9932217105407117,0.312597573457201,1.072579096295295,18627.913182688284,1.0,122698747.21384482,4.0,11794.786117544878,11937.639947970863,10637.535059966913,10637.535059966913,0.03621333643449282,0.03507992572329344,0.036676384613564615,0.043018660461505404,75.10128008933741,76.08007284079086,75.62785383406404,66.8921112489661,0.1758769778308671,0.16301533788443115,0.1647232837176135,0.25438648296168226,8.769352096417343e-05,8.553914854128925e-05,8.629998883087311e-05,9.58613746775117e-05,0.009354662563084742,0.009238174067546276,0.009281879521217212,0.009781974660474986
+31,6023,High Risk,2009-06-23,4697014,Benign by assumption,High risk screening LMP May 20,False,False,False,821,2009-07-31,Left,Radiology,US,Core Needle Biopsy,,6023,1.1471600746751878,0.3421472124240894,0.0001000015511944609,1.1109102110807934,0.39249762175432573,23.785384213206648,-3.9250371015569353e-05,0.65228281887573,1.1468178739086181,4.0,0.28670446847715453,0.0,0.23886230984128903,1.0,0.23886230984128903,0.00616480021816071,0.23886230984128903,1.556531067923645,0.4572612801417708,0.00010000093655822414,1.844655035015249,0.7117413886992036,18.431583257656868,-7.11748054571714e-05,0.7349510963753081,1.567847062012866,4.0,0.3919617655032165,0.0,0.3386300309883428,1.0,0.3386300309883428,0.012075033666282117,0.3386300309883428,485.5,1812.25,1068.9403827281649,66794.73026928437,0.5034845749421935,-0.47538117410972935,9.91467077286326,0.1008606360119419,0.10399621505657022,1.0,0.009512729155971346,0.8557339559878979,0.9180106598844301,-1.3066221848271335,0.9680229458502625,14999.00412086375,4.0,79503024.05122507,4.0,11165.850709849155,11368.942507922135,10719.437610815603,10719.437610815603,0.01178218920675442,0.011464179410729556,0.012125560324943047,0.01393299734527961,86.24645075421475,87.34880036215482,85.96949866903283,83.05574024822693,-0.009731350839105172,-0.025925835448077222,-0.004471506501221713,0.032180366496909925,0.00024010848504364495,0.00024476497541540114,0.0002390259178398413,0.00024088639907449318,0.015495340543726217,0.01564488412942054,0.015460400874503335,0.015520468261232576
+32,6032,High Risk,2009-06-01,4982490,Unknown,"50 years old, left lower outer lumpectomy
+and sentinel node biopsy (negative) in Feb/2009, close margins.
+Faint calcifications medial and lateral to surgical bed on
+mammogram. MRI to rule out residual disease.",False,False,False,2523,2009-07-16,Left,Radiology,MRI,Vacuum Assisted Biopsy,"?<Report title=""""Surgical Pathology Report""""><Sessions>
+&lt;Report title=""""Surgical Pathology Report""""&gt;&lt;Sessions&gt;
+Unassigned (XML)
+
+ SURGICAL PATHOLOGY REPORT
+
+ Specimen #: S09-18525
+ 
+ CLINICAL INFORMATION
+ 9 G 12 cores MRI VAC. ? residual DCIS close post op margins.
+ Inferior margin sampled.
+ 
+ SPECIMENS SUBMITTED
+ Left breast, core biopsy
+ 
+ 
+ 
+ DIAGNOSIS
+ LEFT BREAST, CORE BIOPSY:
+ -FOREIGN BODY GIANT CELL REACTION AND FAT NECROSIS.
+ -NON-PROLIFERATIVE FIBROCYSTIC CHANGES AND CALCIFICATION
+ 
+ 
+ 
+ 
+ MACROSCOPIC DESCRIPTION
+ The specimen container is labeled with the patient name and 'left
+ breast biopsy MRI-VAC'. The accompanying requisition matches the
+ container' s label.The specimen consists of 12 cores of tan
+ hemorrhagic and fatty tissue, each with a diameter of 0.3 cm, ranging
+ from 0.5 to 1.6 cm in length. Submitted in toto in 3 blocks.
+ LS
+ Dictated 7/15/2009
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Reda Saad, MD, FRCPC
+ Report Electronically Signed
+ 7/16/2009 16:25
+
+&lt;/Sessions&gt;&lt;/Report&gt;
+</Sessions></Report>",6032,0.9427236262000867,0.2634394104947897,0.00010000540334075662,0.4938641108000574,0.2483505563456613,29.8996038178112,-2.4836397557249163e-05,0.5185542975203452,0.8119400394603175,4.0,0.20298500986507936,0.0,0.11727062864791933,1.0,0.11727062864791933,0.0038553479186977193,0.11727062864791933,1.198188258408444,0.3309858584720968,0.00010000279824648497,0.7540504114333013,0.3965833693205054,24.487254197753163,-3.965944667006974e-05,0.5700610779163968,1.1122746633275271,4.0,0.2780686658318818,0.0,0.18004223727643198,1.0,0.18004223727643198,0.007993744739385708,0.18004223727643198,565.5,1545.0,999.9219690455718,21098.630369407874,0.5355869383227524,0.9150833012250077,6.7250808825389745,0.23168308939022894,0.0761642072635597,2.0,0.004372910010361173,0.8557346926361025,0.938296395792748,-0.4241368210116861,0.8930542323723653,12908.535282478031,3.0,58919081.6443652,3.0,9812.102532679739,9863.396397334443,9343.27346938776,9343.27346938776,0.014526655327541927,0.012895509832013822,0.013663437897935737,0.016024800180101228,78.94260620915031,78.93804664723034,76.38388480392156,74.43755102040818,0.03874667920394645,0.027344891389536462,0.060492293968088306,0.07848935397010576,0.00022320892204921215,0.00022927938015553356,0.00022468988957238695,0.00022553102873802588,0.014940108920849264,0.015141746312885188,0.014989590913646149,0.015017456904189914
+33,6035,BRCA2,2009-09-05,5062962,Malignant,"Baseline mammogram and subsequent ultrasound showed
+left calcifications and masses. LMP September 5 2009.",True,False,False,800,2009-09-16,Left,Radiology,Stereo,Core Needle Biopsy,"Sept 16, 2009
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY  REPORT
+     
+     Encounter #: 9067909R
+     Specimen #: S09-24313
+     
+     CLINICAL INFORMATION
+     Highly suspicious mass left breast.  Probable ca left outer quadrant,
+     calcification left inner quadrant.
+     NOTE: please fax results to Dr. Curpen at ext 5266
+     
+     SPECIMENS SUBMITTED
+     A: Left  breast biopsies - stereotactic: 14G x6
+     B: Left breast biopsies - ultrasound: 14G x4 cores
+     
+     
+     
+     DIAGNOSIS
+     A.  Left breast (stereotactic), core biopsy:
+     IN-SITU AND INVASIVE DUCT CARCINOMA
+     
+     B.  Left breast (ultrasound), core biopsy:
+     IN-SITU AND INVASIVE DUCT CARCINOMA
+     
+     COMMENT:
+     The first biopsy shows predominantly in-situ carcinoma, solid and
+     cribriform type with intermediate nuclear grade and comedo necrosis.
+     There is a small component of invasive carcinoma, intermediate grade.
+     The second biopsy shows predominantly invasive carcinoma, intermediate
+     grade, with a small component of in-situ carcinoma.
+     Invasive tumour necrosis and lymphovascular invasion are not seen in
+     this biopsy.
+     
+     
+     
+     
+     MACROSCOPIC DESCRIPTION
+     A. The specimen container is labeled with the patient name and 'left
+     breast biopsies stereotactic'. The accompanying requisition matches
+     the container' s label.  The specimen consists of 5 cores of tan fatty
+     tissue measuring 0.1 cm in diameter and ranging in length from 0.6-1.2
+     cm.  Also separately received are 8 fragments of tan fatty tissue
+     ranging in size from 0.2-0.4 cm in maximum dimension.  The specimen is
+     submitted in toto in 3 blocks.
+     
+     B. The specimen container is labeled with the patient name and 'left
+     breast biopsies ultrasound'. The accompanying requisition matches the
+     container' s label.The specimen consists of 4 cores of tan and fatty
+     tissue, each with a diameter of 0.1 cm, ranging from 0.9 to 1.4 cm in
+     length. Submitted in toto in one block.
+     LS  Dictated 9/17/2009
+     
+     
+     
+     
+     
+     Judit Zubovits, MD, FRCPC
+     Report Electronically Signed
+     9/21/2009 12:17",6035,1.285523288255359,0.3884595859426556,0.00010000158402754572,1.4199905654084588,0.49937384427531795,21.276385210783847,-4.9938175449456736e-05,0.6950364359997484,1.311643984111357,4.0,0.32791099602783924,0.0,0.2505917555638379,1.0,0.2505917555638379,0.009171540576088119,0.2505917555638379,1.4615562608504846,0.5942741030654253,0.0026456710507795824,2.115494416838463,0.8685650359965785,9.118448803615284,-0.002297937371455474,0.830600555181501,1.4954040355051825,4.0,0.37385100887629563,0.0,0.25951207198060294,1.0,0.25951207198060294,0.006869430559901792,0.25951207198060294,371.5,1346.5,827.0904444444444,35545.958389877414,0.5551843517476701,-0.1434389762436683,5.048290753777931,0.19808684736544574,0.08274233039366936,1.0,0.006104557673223157,0.8557351382037596,0.954093264362107,-0.4303720441007396,0.9966328578709084,8972.468554563698,4.0,28465698.849939432,4.0,10388.078941005804,10688.34061728395,10394.542391304349,10394.542391304349,0.01204186694463113,0.012978338863983365,0.01427251054995047,0.013838718191616077,82.79823500967117,83.52506172839506,82.53384912959382,81.80978260869566,0.029111191503818794,0.004743126710519968,0.015438914275838881,0.03254817498793697,0.0002595505239646976,0.00026438042981252833,0.00026092427110730354,0.0002575906088823543,0.01611016679671856,0.016259621984171635,0.016153079796641063,0.016049613401950474
+34,6039,High Risk,2009-09-29,ACC109197,Malignant,"44 years-old female . Evaluate extent of
+disease. Abnormal mammogram and ultrasound.",False,False,False,803,2009-10-26,Left,Radiology,Stereo,Fine Needle Aspiration,,6039,1.8118844332132373,0.4006889553891473,0.027920695519759592,1.3514635236059085,0.7260020808300692,6.81620587387962,-0.020270483045568256,0.6845210228032511,1.5243267510966882,3.0,0.5081089170322294,0.02534539228611421,1.036539393297261,1.0,1.036539393297261,0.02105569711967492,1.036539393297261,4.226642183036383,0.24602670059607368,0.09404408980585943,4.553412951054265,1.0398668308926275,5.224595895874817,-0.09779332963060071,0.7617664015010086,2.051005706530497,3.0,0.683668568843499,0.15386725049556182,1.1745683403765277,1.0,1.1745683403765277,0.03533028772517858,1.1745683403765277,63.5,1327.5,730.865597534528,23924.01489940367,-0.25068289303096797,0.47318669381264056,9.424554212642384,0.14695268510281126,0.20578329882465748,4.0,0.048554057188916,0.8557364296680898,0.9768250821104698,14.25736197693967,0.9754138804374679,54835.40763401373,3.0,1063236158.3020421,3.0,10169.484585437714,10425.626660644064,9403.567194403535,9403.567194403535,0.016072535302418523,0.014641823278884932,0.015784662375479517,0.02008443243317108,79.2314288720539,80.74139122117128,79.88423295454542,72.78358405217756,0.09038122007422258,0.06562048512400231,0.07034273294081023,0.1575791416624013,6.94096814809146e-05,6.978764460992295e-05,6.93847717140541e-05,7.074025555919164e-05,0.008331202694710374,0.008353889866598145,0.008329711595220838,0.00841065229559861
+35,6042,High Risk,2008-01-19,4504274,Unknown,"Strong family history of breast cancer; 25%
+lifetime risk of breast cancer. New palpable nodule right upper
+outer breast.",True,False,False,25,2008-12-19,Right,Surgical/Operating Rm (includes 'Sentinel Lymph Node Biopsy'),N/A,N/A,,6042,0.31727445811138266,3.7902359382084407,0.00010000393299318373,0.9948438407644883,1.2025450534093711,2.781556575619048,-0.0001202592349424353,1.0007411058110471,0.43377270385777367,4.0,0.10844317596444342,0.0,0.054859192000525595,1.0,0.054859192000525595,0.002367190007185223,0.054859192000525595,0.5859179691222607,4.396136142704425,0.00010000288978073542,1.8585053230707889,2.575775160718346,2.431922006263447,-0.0002575849594972728,1.0007433083341015,0.7169582293498079,4.0,0.17923955733745198,0.0,0.11241214327760361,1.0,0.11241214327760361,0.00627504847957594,0.11241214327760361,877.75,2936.0,1765.972190692395,136141.32244221438,0.5656097657567816,0.2900941255186338,4.645826151192754,0.25367081416403453,0.0720846667633055,1.0,0.004158372979092149,0.855734653538445,0.9400372746470645,-0.2117925816382806,0.9254370207547564,26773.078338043026,2.0,253455041.1564704,2.0,10659.669245647967,10542.15345679012,10380.21292270531,10380.21292270531,0.012477656007905197,0.010568313162413316,0.011573782674756096,0.013895550406652748,83.87209864603481,83.50580246913582,85.08438104448742,82.13997584541063,0.01554921508519767,0.02356454891756058,-0.01049306502561667,0.03807839074669383,0.0002602520118673048,0.00026410608139003193,0.0002594043806516545,0.0002599243856332702,0.01613225906799018,0.016251242021521825,0.0161060002126229,0.016122129145410027
+36,6052,Other,2010-09-10,5369136,Unknown,Known right DCIS,False,False,False,2230,2010-08-30,Right,Radiology,N/A,Core Needle Biopsy,"Aug 30, 2012
+
+AP Report: 
+     (NOTE)
+     
+     SURGICAL  PATHOLOGY CONSULTATION REPORT
+     
+
+     Encounter #: 8015710R
+     Specimen #: S10-23126
+     
+     CLINICAL INFORMATION
+     Right breast calcifications.
+     
+     SPECIMENS SUBMITTED
+     Right breast core biopsy - S10-17529
+     
+     
+     DISPOSITION OF MATERIAL
+     Received:     2 blocks labelled S10-17529; A1 and A2
+     From:          William Osler Health Centre - Brampton Civic Hospital
+     Return:          BLOCKS
+              (Received & Typed 2010.08.30/mk)
+     
+     DIAGNOSIS
+     
+     Right breast core biopsy - S10-17529: - DUCTAL CARCINOMA IN SITU
+     
+     Comment:
+     Sections of the core biopsy show the presence of in situ ductal
+     carcinoma of the solid subtype. The nuclear grade is 3/3. Comedo
+     necrosis and calcification are noted in the DCIS. Some dissociated
+     tumor cells are present. They are likely derived from the DCIS.
+     
+     
+     
+     
+     
+     
+     
+     
+     Harriette Kahn, MD, FRCPC
+     Report Electronically Signed
+     2010/08/31 11:19",6052,0.3998044225142503,13.002838112266641,0.00010000124151641773,1.2350996619331749,5.198592182521049,0.9056102364634597,-0.0005198656723896485,1.0008887390568566,0.7465811774969923,4.0,0.18664529437424807,0.0,0.21663650402248896,1.0,0.21663650402248896,0.0007530422846390624,0.21663650402248896,2.1020364652800545,0.057695849907226204,0.00010000000042825981,0.5917451558476664,0.12127878040031433,110.2246014424312,-1.2127878091970259e-05,0.33357092680850714,1.2805608887508744,4.0,0.3201402221877186,0.0,0.5339208649805403,1.0,0.5339208649805403,0.008333636284721094,0.5339208649805403,435.75,2483.0,1013.9614047287901,77467.59246438683,0.9867505100686023,1.7085409349622052,1.1116170153918215,0.8926390758434066,0.13956946012196178,1.0,0.014208038006510236,0.8557354554167382,0.9674928871186868,-0.8481821287345312,0.9094943011224473,9949.383237308708,4.0,35002737.07736331,4.0,10593.76127320955,10650.497942386828,10545.86541005291,10545.86541005291,0.012703329522093982,0.013262135909241326,0.010232779464305706,0.0109010542258652,83.93302387267904,83.90672153635116,84.99104774535809,83.29332010582011,-0.0003843557214574941,0.002003881272959129,0.00013215145344889177,0.012417121976084295,0.0006870958776885774,0.0007100976401895972,0.0006862163949651358,0.0006884955628341884,0.026212352055948705,0.02664733150609225,0.026195497295370816,0.02623911152617136
