@@ -113,10 +113,6 @@ if __name__ == '__main__':
             print "Retrieving Scans to local drive..."
             #getScans(path_rootFolder, fileline, PatientID, StudyID, AccessionN, oldExamID=False)
             
-            if(init_flag): 
-                casesFrame = pd.DataFrame(columns=queryData.d1.columns)
-                init_flag=False
-
             #############################                  
             ###### 3) Extractfeatures
             #############################

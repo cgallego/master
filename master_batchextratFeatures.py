@@ -126,20 +126,24 @@ if __name__ == '__main__':
             redateID = dateID[0:4]+'-'+dateID[4:6]+'-'+dateID[6:8]
         
             # perform query        
-            queryData = Query()
-            queryData.queryDatabasewNoGui(fStudyID, redateID)       
+            try:
+                queryData = Query()
+                queryData.queryDatabasewNoGui(fStudyID, redateID)
+            except Exception: 
+                queryData = Query()
+                queryData.queryDatabasewNoGuiNodate(fStudyID)
+                
             rowCase=0
-            
             #slice data, get only 1 record        
             dataCase = pd.Series( queryData.d1.loc[rowCase,:] )
             print dataCase
 
             ## append collection of cases
             casesFrame = pd.DataFrame(columns=queryData.d1.columns)
-            casesFrame = casesFrame.append(dataCase) # 20            
+            casesFrame = casesFrame.append(dataCase) # 20    
             casesFrame['id']=fStudyID
             casesFrame.set_index('id',inplace=False) 
-
+            
             #############################                  
             ###### 3) Extractfeatures
             #############################
@@ -163,7 +167,25 @@ if __name__ == '__main__':
             # Create only 1 display
             loadDisplay = Display()
             lesion3D_mesh = loadDisplay.addSegment(lesion3D, (0,1,0), interact=False)
-            loadDisplay.visualize(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, sub=True, postS=4, interact=False)
+            loadDisplay.visualize(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, sub=True, postS=4, interact=True)
+            
+            #############################
+            # 4) Create Segmentation of lesion. Comment out if not needed ( define seededlesion3D = lesion3D  )
+            #############################
+            ##  Get z slice
+#            LesionZslice = loadDisplay.zImagePlaneWidget.GetSliceIndex()
+#            
+#            createSegment = Segment()
+#            print "\n Displaying picker for lesion segmentation"
+#            seeds = loadDisplay.display_pick(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, 4, LesionZslice)
+#            
+#            seededlesion3D = createSegment.segmentFromSeeds(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, seeds, loadDisplay.iren1, loadDisplay.xImagePlaneWidget, loadDisplay.yImagePlaneWidget,  loadDisplay.zImagePlaneWidget)
+#            seededlesion3D_mesh = loadDisplay.addSegment(seededlesion3D, (0,0,1), interact=True)
+#            loadDisplay.picker.RemoveAllObservers()
+#        
+#            # save it to file	             
+#            createSegment.saveSegmentation(lesionID_path, seededlesion3D) 
+#            lesion3D = seededlesion3D
             
             #############################
             ###### Extract Dynamic features
@@ -208,7 +230,7 @@ if __name__ == '__main__':
             #############################
             ###### Finish tidying up and save to file
             ## append collection of cases
-            #############################            
+            #############################               
             dynamicfeatures_contour['id']=fStudyID
             dynamicfeatures_contour.set_index('id',inplace=False)
             casesFrame = pd.merge(casesFrame, dynamicfeatures_contour, on='id', how='inner')
@@ -231,7 +253,7 @@ if __name__ == '__main__':
                 init_flag=False  
                 
             allcasesFrame = allcasesFrame.append(casesFrame, ignore_index=True)
-            allcasesFrame.to_csv('casesFrames_newname.csv')  
+            allcasesFrame.to_csv('casesFramesAllfinal1.csv')  
         
         else:
             file_ids.close()
