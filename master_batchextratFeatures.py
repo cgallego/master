@@ -173,19 +173,19 @@ if __name__ == '__main__':
             # 4) Create Segmentation of lesion. Comment out if not needed ( define seededlesion3D = lesion3D  )
             #############################
             ##  Get z slice
-#            LesionZslice = loadDisplay.zImagePlaneWidget.GetSliceIndex()
-#            
-#            createSegment = Segment()
-#            print "\n Displaying picker for lesion segmentation"
-#            seeds = loadDisplay.display_pick(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, 4, LesionZslice)
-#            
-#            seededlesion3D = createSegment.segmentFromSeeds(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, seeds, loadDisplay.iren1, loadDisplay.xImagePlaneWidget, loadDisplay.yImagePlaneWidget,  loadDisplay.zImagePlaneWidget)
-#            seededlesion3D_mesh = loadDisplay.addSegment(seededlesion3D, (0,0,1), interact=True)
-#            loadDisplay.picker.RemoveAllObservers()
-#        
-#            # save it to file	             
-#            createSegment.saveSegmentation(lesionID_path, seededlesion3D) 
-#            lesion3D = seededlesion3D
+            LesionZslice = loadDisplay.zImagePlaneWidget.GetSliceIndex()
+            
+            createSegment = Segment()
+            print "\n Displaying picker for lesion segmentation"
+            seeds = loadDisplay.display_pick(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, 4, LesionZslice)
+            
+            seededlesion3D = createSegment.segmentFromSeeds(load.DICOMImages, load.image_pos_pat, load.image_ori_pat, seeds, loadDisplay.iren1, loadDisplay.xImagePlaneWidget, loadDisplay.yImagePlaneWidget,  loadDisplay.zImagePlaneWidget)
+            seededlesion3D_mesh = loadDisplay.addSegment(seededlesion3D, (0,0,1), interact=True)
+            loadDisplay.picker.RemoveAllObservers()
+        
+            # save it to file	             
+            createSegment.saveSegmentation(lesionID_path, seededlesion3D) 
+            lesion3D = seededlesion3D
             
             #############################
             ###### Extract Dynamic features

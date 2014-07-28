@@ -1,8 +1,3 @@
-massB	775	14616	1317	2011125	S800	L	314	L	massB	BenignTissue
-nonmassB	775	14616	10498	20101125	S800	L	314	L	nonmassB	BenignTissue
-nonmassB	775	14616	10499	20101125	S800	L	314	L	nonmassB	BenignTissue
-nonmassB	775	14616	10500	20101125	S800	L	314	L	nonmassB	BenignTissue
-
 massM	18	7714	1721	20030205	S44	R	457	R	massM	InvasiveDuctal
 massM	18	7714	1722	20030205	S44	L	457	R	massM	InvasiveDuctal
 nonmassM	59	4614	10665	20011001	S33	R	462	R	nonmassM	InvasiveDuctal
@@ -276,11 +271,9 @@ nonmassB	775	14616	10498	20101125	S800	L	314	L	nonmassB	BenignTissue
 nonmassB	775	14616	10499	20101125	S800	L	314	L	nonmassB	BenignTissue
 nonmassB	775	14616	10500	20101125	S800	L	314	L	nonmassB	BenignTissue
 
+
 ################# 
 cond	StudyNumber	DicomExamNumber	LesionID	StudyDate	SeriesID	BreastSide	PathReportID	PathoBreastSide	BenignNMaligNAnt	Diagnosis
-
-
-
 
 
 
